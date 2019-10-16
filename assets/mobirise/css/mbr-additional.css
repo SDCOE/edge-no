@@ -479,11 +479,11 @@ section.form .container {
   font-family: 'Lato', sans-serif;
 }
 #ext_menu-3 .link {
-  font-size: 1.35rem;
+  font-size: 1.3rem;
 }
 #ext_menu-3 .dropdown-item,
 #ext_menu-3 .nav-dropdown-sm .link {
-  font-size: 1.462rem;
+  font-size: 1.408rem;
 }
 #ext_menu-3 .link:hover,
 #ext_menu-3 .dropdown-item:hover,
@@ -532,13 +532,15 @@ section.form .container {
   font-size: 25px;
   text-align: center;
 }
-#header3-v .mbr-section-title,
-#header3-v .mbr-section-subtitle {
-  text-align: center;
+#header6-2j .mbr-section-title {
+  color: #28262b;
 }
-#header3-v .mbr-section-title {
-  color: #ffffff;
-  font-size: 30px;
+#header6-2j .mbr-section-text {
+  color: #565656;
+}
+#header3-2n .mbr-section-title,
+#header3-2n .mbr-section-subtitle {
+  text-align: center;
 }
 #features1-j .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #005488;
@@ -563,4 +565,8 @@ section.form .container {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+}
+#social-buttons4-2m .mbr-section-title,
+#social-buttons4-2m .btn-social {
+  color: #fff;
 }

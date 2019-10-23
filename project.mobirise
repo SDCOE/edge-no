@@ -26,8 +26,7 @@
         "#005488",
         "#06779f",
         "#99b4c2",
-        "#f2f2f2",
-        "#b4ed7c"
+        "#f2f2f2"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -42,7 +41,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 97,
+    "uniqCompNum": 91,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -156,12 +155,12 @@
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "inverse": false,
-            "imageSize": "28",
+            "inverse": true,
+            "imageSize": "20",
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/edtecho-tuesdays-2000x2589.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/taco2-1-812x607.jpeg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -231,9 +230,9 @@
             "showButtons": false,
             "inverse": true,
             "showArrow": true,
-            "imageSize": 50,
+            "imageSize": "65",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -242,7 +241,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#ccc",
+            "overlayColor": "#47c7d1",
             "overlayOpacity": "0.9"
           },
           "media": {
@@ -307,7 +306,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffd232",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -329,7 +328,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/king-middle-school-35-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/king-middle-school-35-600x400.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -367,7 +366,7 @@
           },
           "media6": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -596,7 +595,7 @@
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fac51c",
+            "bgColor": "#ffd232",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5

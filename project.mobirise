@@ -21,13 +21,12 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#6fb944",
-        "#a2c638",
-        "#33c3f9",
         "#282828",
         "#00aeef",
         "#005488",
-        "#06779f"
+        "#06779f",
+        "#99b4c2",
+        "#f2f2f2"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -231,7 +230,7 @@
             "showButtons": false,
             "inverse": true,
             "showArrow": true,
-            "imageSize": "65",
+            "imageSize": "67",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpeg",
             "parallax": true,
@@ -276,13 +275,16 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
             }
           },
           "_params": {
             "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#b4ed7c"
+            "bgColor": "#06779f"
           },
           "title": "Feed the need! Join us...",
           "meta": "",
@@ -394,8 +396,8 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://forms.gle/HXxUFZzUZLSCvgxs9\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Presenter Application</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"youtube.com/UCMbWA0gnchRUNK5kGntyh5g\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Subscribe</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://forms.gle/HXxUFZzUZLSCvgxs9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Presenter Application</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"youtube.com/UCMbWA0gnchRUNK5kGntyh5g\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Subscribe</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSfWAat7vSYcDp5BiHi9eRKWj8_sDA79527NnCI6QVr56LpB1w/viewform?usp=sf_link\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Interest List<br></a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -418,12 +420,16 @@
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "16px",
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#28324e"
             },
             ".mbr-cards-col:nth-child(even) .card-text P": {
               "text-align": "center",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#28324e"
             }
           }
         },
@@ -436,7 +442,7 @@
             "paddingTop": 1,
             "paddingBottom": 1,
             "filterBgColor": true,
-            "bgColor": "#000000",
+            "bgColor": "#d14841",
             "showText": false,
             "filter": false,
             "images": [
@@ -543,7 +549,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#99b4c2"
+            "bgColor": "#a2c638"
           },
           "text": "<blockquote>Educational Technology team presents edTECH-O Tuesdays in partnership with our Professional Learning Network who are expert classroom practitioners from throughout San Diego county. We thank our sponsors for their generous donation. &nbsp;</blockquote>",
           "_tags": [
@@ -593,8 +599,8 @@
             }
           },
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": true,

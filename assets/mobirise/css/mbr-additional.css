@@ -542,6 +542,9 @@ section.form .container {
 #header3-2n .mbr-section-subtitle {
   text-align: center;
 }
+#header3-2n .mbr-section-title {
+  color: #ffffff;
+}
 #features1-j .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #33c3f9;
 }
@@ -553,10 +556,14 @@ section.form .container {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   text-align: left;
+  color: #28324e;
 }
 #features1-j .mbr-cards-col:nth-child(even) .card-text P {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+#features1-j .mbr-cards-col:nth-child(even) .card-title {
+  color: #28324e;
 }
 #content2-2g BLOCKQUOTE {
   color: #ffffff;

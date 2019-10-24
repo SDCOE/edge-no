@@ -27,7 +27,7 @@
         "#06779f",
         "#99b4c2",
         "#f2f2f2",
-        "#33c3f9"
+        "#53e245"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -42,7 +42,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 91,
+    "uniqCompNum": 92,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -216,39 +216,32 @@
           }
         },
         {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b"
-            },
-            ".mbr-section-text": {
-              "color": "#565656"
-            }
-          },
+          "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "inverse": true,
-            "showArrow": true,
-            "imageSize": "67",
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpeg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#6fb944",
+            "bgColor": "#53e245",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#6fb944",
-            "overlayOpacity": "0.9"
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
             },
             "video": {
               "active": true,
@@ -258,19 +251,19 @@
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
               "size": 250
             }
           },
           "title": "edTECH-O Tuesday",
-          "text": "The SDCOE Ed Tech team is excited to present Ed Tech-o Tuesday. Every other Tuesday from 4pm to 4:45 pm, the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done or are doing in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and be archived for ample opportunities to view. .",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "text": "<p>The SDCOE Ed Tech team is excited to present Ed Tech-o Tuesday. Every other Tuesday from 4pm to 4:45 pm, the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done or are doing in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and be archived for ample opportunities to view.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header6",
-          "_anchor": "header6-2j"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2j"
         },
         {
           "_styles": {

@@ -21,12 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#6fb944",
+        "#a2c638",
+        "#33c3f9",
         "#282828",
         "#00aeef",
         "#005488",
-        "#06779f",
-        "#99b4c2",
-        "#f2f2f2"
+        "#06779f"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -170,7 +171,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.4"
+            "overlayOpacity": "0.2"
           },
           "media": {
             "image": {
@@ -231,17 +232,17 @@
             "inverse": true,
             "showArrow": true,
             "imageSize": "65",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpeg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgColor": "#6fb944",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#47c7d1",
+            "overlayColor": "#6fb944",
             "overlayOpacity": "0.9"
           },
           "media": {
@@ -298,9 +299,9 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": true,
-            "columnsColor": "#005488",
-            "paddingTop": "1",
-            "paddingBottom": "2",
+            "columnsColor": "#33c3f9",
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -309,7 +310,10 @@
             "bgColor": "#ffd232",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "",
+              "rawUrl": "",
+              "width": 1280,
+              "height": 720
             },
             "overlay": false,
             "overlayColor": "#222",
@@ -403,7 +407,7 @@
           "_anchor": "features1-j",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#005488"
+              "background-color": "#33c3f9"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "text-align": "left",

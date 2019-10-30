@@ -227,7 +227,7 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "inverse": true,
             "imageSize": 50,
             "paddingTop": "1",

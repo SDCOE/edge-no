@@ -50,9 +50,7 @@
     "uniqCompNum": 92,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on",
-    "publishType": "local",
-    "publishPath": "file:///Users/pamela.rabin/Documents"
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {

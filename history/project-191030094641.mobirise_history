@@ -252,10 +252,10 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/5hpX6Vf4-2g",
+              "src": "https://youtu.be/uqCP8cSRbcc",
               "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "autoplay": "on",
+              "loop": "on"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",

@@ -7,7 +7,7 @@
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#005488",
-        "secondaryColor": "#ffffff",
+        "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#00aeef",
         "warningColor": "#f3c649",
@@ -48,11 +48,9 @@
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
     "uniqCompNum": 92,
-    "versionPublish": "4.10.8",
+    "versionPublish": "4.11.4",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on",
-    "publishType": "local",
-    "publishPath": "file:///Users/pamela.rabin/Documents"
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -264,11 +262,11 @@
             }
           },
           "title": "edTECH-O Tuesday",
-          "text": "<p>The SDCOE Ed Tech team is excited to present edTECH-O Tuesdays. Every other Tuesday from 4 p.m. to 4:45 p.m. the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done, or are doing, in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view.&nbsp;</p>",
+          "text": "<p>The SDCOE Ed Tech team is excited to present Ed Tech-o Tuesday. Every other Tuesday from 4pm to 4:45 pm, the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done or are doing in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and be archived for ample opportunities to view.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html#features1-j\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features1-j\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-2j"
         },
@@ -324,7 +322,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/hands-1-400x400.png",
+              "src": "@PROJECT_PATH@/assets/images/hands-400x400.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -381,10 +379,10 @@
           },
           "title1": "<div>Sign-up to Present on edTECH-O Tuesday!</div>",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Being a presenter is easy!  The Ed Tech team will provide you with a basic presentation template, the Zoom link for your session, and serve as your co-host as you present. We ask that you prepare the slides, using the template, and provide a basic transcript of what you are going to say during the presentation. We will do the rest! Apply now and help us create a strong learning community across San Diego County.",
-          "title2": "edTECH-O Tuesday Begins Nov. 5",
+          "caption1": "Being a presenter is easy!  The Ed Tech team will provide you with a basic template to use, the Zoom link and serve as your co-host as you present. We ask that you prepare the slides, using the template and provide a basic transcript of what you are going to say during the presentation. We will do the rest!<br>",
+          "title2": "edTECH-O Tuesday Begins 11/5",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "<p>Hear from mentor educators showcasing innovation in schools.&nbsp;<br><span style=\"background-color: initial;\"><br>Become an early-adopter of new technologies.</span></p><p>Learn how meaninful technology integration improves student outcomes.</p><p>Connect with other educators throughout San Diego county.</p>",
+          "caption2": "<p>Hear from a mentor who is showcasing innovation in schools!</p><p>Be an early-adopter!</p><p>Connect with other educators throughout San Diego county!</p>",
           "title3": "MESI Cohorts - Coming soon<br>\"A MESI Group of Learners with Common Goals\"",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "\"The most successful organizations in the world are the ones who work together, play together, and get messy together.\" <br><br>-Jeanne Malati<br><br><br><br>",
@@ -397,8 +395,8 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://forms.gle/HXxUFZzUZLSCvgxs9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRESENTER APPLICATION</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://forms.gle/HXxUFZzUZLSCvgxs9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Presenter Application</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Subscribe</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSfWAat7vSYcDp5BiHi9eRKWj8_sDA79527NnCI6QVr56LpB1w/viewform?usp=sf_link\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Interest List<br></a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -425,7 +423,7 @@
               "color": "#28324e"
             },
             ".mbr-cards-col:nth-child(even) .card-text P": {
-              "text-align": "left",
+              "text-align": "center",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },

@@ -47,7 +47,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 92,
+    "uniqCompNum": 93,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -72,7 +72,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "bgColor": "#000000",
+            "bgColor": "#055ba6",
             "fontSize": "1.3",
             "fontName": {
               "name": "Lato",
@@ -115,13 +115,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#044074"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#055397!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#055ba6"
             },
             ".bg-color.transparent .link": {
               "color": "#cccccc",
@@ -227,7 +227,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "49",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -261,14 +261,19 @@
               "size": 250
             }
           },
-          "title": "edTECH-O Tuesday",
+          "title": "Welcome!",
           "text": "<p>The SDCOE Ed Tech team is excited to present edTECH-O Tuesdays. Every other Tuesday from 4 p.m. to 4:45 p.m. the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done, or are doing, in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html#features1-j\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-2j"
+          "_anchor": "msg-box4-2j",
+          "_styles": {
+            "H3": {
+              "color": "#282828"
+            }
+          }
         },
         {
           "_styles": {
@@ -300,9 +305,9 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": true,
-            "columnsColor": "#33c3f9",
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "columnsColor": "#3d8eb9",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -311,10 +316,7 @@
             "bgColor": "#f2c230",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "",
-              "rawUrl": "",
-              "width": 1280,
-              "height": 720
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
             "overlayColor": "#222",
@@ -322,34 +324,34 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/hands-2-396x359.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/edtecho-hands-400x400.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
-              "alt": "many hands raised in different colors",
+              "alt": "hands raised to volunteer",
               "title": ""
             }
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/king-middle-school-36-600x400.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/greenscreen-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
-              "alt": "Two female students filming another female student in front of a green screen.",
-              "title": "Filming in progress"
+              "alt": "Students filming against a green screen",
+              "title": ""
             }
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/agenda-153555-1283-600x435.png",
+              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x600.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
-              "alt": "Image of people looking at an agena",
+              "alt": "man looking at online menu",
               "title": ""
             }
           },
@@ -377,15 +379,15 @@
               "active": true
             }
           },
-          "title1": "<div>Sign-up to Present on </div><div>edTECH-O Tuesday!</div>",
+          "title1": "Sign Up to Present on <br>edTECH-O Tuesdays",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Being a presenter is easy!  The Ed Tech team will provide you with a basic presentation template, the Zoom link for your session, and serve as your co-host as you present. We ask that you prepare the slides, using the template, and provide a basic transcript of what you are going to say during the presentation. We will do the rest.&nbsp;",
-          "title2": "edTECH-O Tuesday <br>Begins Nov. 12",
+          "caption1": "<b>Being a presenter is easy! The Ed Tech team will provide you with a basic presentation template, the Zoom link for your session, and serve as your co-host as you present. We ask that you prepare the slides using the tmplate and provide a basic transcript of what you are going to say during the presentation. We will do the rest.&nbsp;</b>",
+          "title2": "edTECH-O Tuesdays<br>Begins Nov. 12",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "<p>Hear from mentor educators showcasing innovation in schools. Become an early-adopter of new technologies.\nLearn how meaningful technology integration improves student outcomes.\nConnect with other educators throughout San Diego county. Implement ideas immediately.<span style=\"background-color: initial;\"><br></span></p>",
-          "title3": "Calendar of Sessions <br>for 2020",
+          "caption2": "<b>Hear from mentor educators showcasing innovation in schools. become an early-adopter of new technologies. learn how meaningful technology integration improves student outcomes. Connect with other educators throughout San Diego county. Implement ideas immediately in your classrooms with hands on curriculum.</b>",
+          "title3": "Schedule of Sessions<br>for 2019-2020 School Year",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Interested in what sessions we are offering for this school year? We will be adding to the schedule as presenters are accepted. Interested in applying see the presenter application link.&nbsp;<br><br>Please check back!",
+          "caption3": "<b>Interested in what sessions we are offering for this school year? We will be adding to the schedule as presenters are accepted. Is there something you would like to learn more about? Email <a href=\"mailto:michanne.hoctorthompson@sdcoe.net\">Michanne Hoctor Thompson, Ed.D.</a>&nbsp;</b><br><br><b>Check back for updates.</b>",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -395,9 +397,9 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://forms.gle/HXxUFZzUZLSCvgxs9\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRESENTER APPLICATION</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/document/d/14EDHBtcMrjIAV_XzqaODE5E0wnqlXQHvYYdCcYDVFpY/edit?usp=sharing\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SCHEDULE<br></a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLScNVJkbVIdhsCfLUUukItD-nNcAmajvuTuUAT_dEPnVfqASdA/viewform?usp=sf_link\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRESENTER APPLICATION</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">SCHEDULE</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -405,30 +407,16 @@
             "Theme"
           ],
           "_name": "features1",
-          "_anchor": "features1-j",
+          "_anchor": "features1-2k",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#33c3f9"
+              "background-color": "#3d8eb9"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
-              "text-align": "left",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "text-align": "left"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "16px",
-              "text-align": "left",
-              "color": "#28324e"
-            },
-            ".mbr-cards-col:nth-child(even) .card-text P": {
-              "text-align": "left",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#28324e"
+              "text-align": "left"
             }
           }
         },

@@ -50,7 +50,9 @@
     "uniqCompNum": 93,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///Users/pamela.rabin/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -305,7 +307,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": true,
-            "columnsColor": "#2969b0",
+            "columnsColor": "#3d8eb9",
             "paddingTop": "1",
             "paddingBottom": "1",
             "columns": "3",
@@ -324,7 +326,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/edtecho-hands-400x400.png",
+              "src": "@PROJECT_PATH@/assets/images/edtecho%20hands-400x400.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -410,7 +412,7 @@
           "_anchor": "features1-2k",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2969b0"
+              "background-color": "#3d8eb9"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "text-align": "left"

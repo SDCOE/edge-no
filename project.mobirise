@@ -50,9 +50,7 @@
     "uniqCompNum": 93,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on",
-    "publishType": "local",
-    "publishPath": "file:///Users/pamela.rabin/Documents/GitHub/edtecho"
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -326,7 +324,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/edtecho%20hands-400x400.png",
+              "src": "@PROJECT_PATH@/assets/images/edtecho-hands-400x400.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,

@@ -462,15 +462,15 @@ section.form .container {
   font-size: 18px;
 }
 #ext_menu-3 .navbar-toggler {
-  color: #cccccc;
+  color: #ffffff;
 }
 #ext_menu-3 .close-icon::before,
 #ext_menu-3 .close-icon::after {
-  background-color: #cccccc;
+  background-color: #ffffff;
 }
 #ext_menu-3 .link,
 #ext_menu-3 .dropdown-item {
-  color: #cccccc;
+  color: #ffffff;
   font-family: 'Lato', sans-serif;
 }
 #ext_menu-3 .link {
@@ -503,7 +503,7 @@ section.form .container {
   background: #055ba6;
 }
 #ext_menu-3 .bg-color.transparent .link {
-  color: #cccccc;
+  color: #ffffff;
   transition: none;
 }
 #ext_menu-3 .bg-color.transparent.opened .link {
@@ -528,7 +528,16 @@ section.form .container {
   text-align: center;
 }
 #msg-box4-2j H3 {
-  color: #282828;
+  color: #000000;
+}
+#msg-box4-2j P {
+  color: #000000;
+}
+#msg-box4-2l H3 {
+  color: #000000;
+}
+#msg-box4-2l P {
+  color: #000000;
 }
 #header3-2n .mbr-section-title,
 #header3-2n .mbr-section-subtitle {
@@ -545,6 +554,10 @@ section.form .container {
 }
 #features1-2k .mbr-cards-col:nth-child(even) .card-text {
   text-align: left;
+  color: #000000;
+}
+#features1-2k .mbr-cards-col:nth-child(even) .card-title {
+  color: #000000;
 }
 #content2-2g BLOCKQUOTE {
   color: #ffffff;

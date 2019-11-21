@@ -305,12 +305,12 @@
             "image": {
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1400x1400.jpg",
-              "active": true,
               "link": "",
               "alt": "",
               "title": ""
             },
             "video": {
+              "active": true,
               "src": "https://youtu.be/AcUJCNgOUeg",
               "aspectratio": "16:9",
               "autoplay": false,

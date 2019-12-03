@@ -47,7 +47,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 95,
+    "uniqCompNum": 96,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -292,7 +292,69 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#a2c639",
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen%20shot%202019-12-03%20at%2012.14.24%20pm-1400x786.png",
+              "link": "https://sdcoe.zoom.us/j/202242623",
+              "alt": "Placeholder image",
+              "title": "Destination VR placeholder image",
+              "linkInNewWindow": true,
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Destination VR",
+          "text": "<p><b>12/3/19</b><br>Pamela Rabin kicks off the implementation portion of the Ed Tech Roadshows. Participants walked with us in Balboa Park to snap 360° images, now we show how you can use these images to create VR Tours that align with curriculum standards. The objectives of this demonstration are: 1) to experience a mini VR Tour, 2) To engage with our lesson building template, 3) to learn to upload 360° images, 4) See how easy it is to build in Google VR. &nbsp;<a href=\"https://docs.google.com/presentation/d/14DGchJlOSAKvb2nBtr2wChOcBy8sJ9XMChbWjzSlzvI/edit?usp=sharing\" target=\"_blank\"><b>Link to presentation</b></a>.<br><span style=\"font-size: 1.07rem; background-color: rgb(255, 255, 255);\"><br><a href=\"https://sdcoe.zoom.us/j/202242623\" target=\"_blank\" style=\"font-weight: bold; font-size: 1.07rem; background-color: rgb(255, 255, 255);\">Link to webinar.</a></span><span style=\"font-size: 1.07rem;\">&nbsp;</span><span style=\"font-size: 1.07rem;\">(Note you will enter as a muted participant. Meeting opens at 3:50.)</span></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-2n"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "48",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"

@@ -304,7 +304,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/screen%20shot%202019-12-03%20at%2012.14.24%20pm-1400x786.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2019-12-03-at-12.14.24-pm-1400x786.png",
               "link": "https://sdcoe.zoom.us/j/202242623",
               "alt": "Placeholder image",
               "title": "Destination VR placeholder image",

@@ -10,8 +10,8 @@
         "secondaryColor": "#ffffff",
         "successColor": "#90a878",
         "infoColor": "#00aeef",
-        "warningColor": "#41a85f",
-        "dangerColor": "#ff0000",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#88caba",
-        "#ff0000",
         "#a2c639",
         "#a2c638",
         "#99b4c2",
         "#f29b30",
-        "#f2c230"
+        "#f2c230",
+        "#7abf49",
+        "#055ba6"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -47,7 +47,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 98,
+    "uniqCompNum": 96,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -163,7 +163,7 @@
             "showButtons": false,
             "inverse": true,
             "imageSize": "20",
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/taco2-1-812x607.jpeg",
@@ -217,9 +217,6 @@
               "color": "#ffffff",
               "font-size": "25px",
               "text-align": "center"
-            },
-            "B": {
-              "font-size": "30px"
             }
           }
         },
@@ -230,7 +227,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "37",
+            "imageSize": "49",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -274,98 +271,12 @@
           "_anchor": "msg-box4-2j",
           "_styles": {
             "H3": {
-              "color": "#000000",
-              "font-size": "36px"
+              "color": "#000000"
             },
             "P": {
               "color": "#000000"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#2969b0"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#f2c230"
-          },
-          "title": "Upcoming and Featured Webinars",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2p"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "48",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#88caba",
-            "overlayOpacity": "0.6"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ikigai-for-all-future-ready-students-poster-1400x1044.png",
-              "link": "https://sdcoe.zoom.us/j/358000143",
-              "alt": "Components of Being Future Ready with Ikigai - PDF found at: https://drive.google.com/file/d/1n44CLPdinDVjaekgr7_benhPhP5tL4yn/view?usp=sharing",
-              "title": "Ikigai Placeholder image",
-              "linkInNewWindow": true,
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Ikigai For All",
-          "text": "<p><b>12/17/19</b><br><b>Jewyl Clark presents on helping all students to find their purpose (Ikigai). <a href=\"https://docs.google.com/presentation/d/1nVT8uhipgz-9ZjtDFg-p6NanUBKtL2gpk-peUMGXIXo/edit?usp=sharing\">Link to presentation</a>. Her presentation will focus on ensuring students are future ready by identifying their interests, relating those to their individual strengths and interests, then connecting those to the world of work. Join us!&nbsp;<a href=\"https://sdcoe.zoom.us/j/358000143\">Link to webinar.</a></b></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "msg-box4-2o"
         },
         {
           "_inherit": "msg-box5",
@@ -376,19 +287,19 @@
             "inverse": true,
             "imageSize": "48",
             "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-4553-2000x1500.jpg",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#99b4c2",
-            "overlayOpacity": "0.8"
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -397,14 +308,14 @@
               "link": "https://sdcoe.zoom.us/j/202242623",
               "alt": "Placeholder image",
               "title": "Destination VR placeholder image",
-              "linkInNewWindow": true
+              "linkInNewWindow": true,
+              "active": true
             },
             "video": {
               "src": "https://youtu.be/AcUJCNgOUeg",
               "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false,
-              "active": true
+              "autoplay": false,
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -413,7 +324,7 @@
             }
           },
           "title": "Destination VR",
-          "text": "<p><b>12/3/19</b><br><b>Pamela Rabin kicks off the implementation portion of the Ed Tech Roadshows. Participants walked with us in Balboa Park to snap 360° images, now we show how you can use these images to create VR Tours that align with curriculum standards. The objectives of this demonstration are: 1) to experience a mini VR Tour, 2) To engage with our lesson building template, 3) to learn to upload 360° images, 4) See how easy it is to build in Google VR. &nbsp;</b></p><p><br></p>",
+          "text": "<p><b>12/3/19</b><br>Pamela Rabin kicks off the implementation portion of the Ed Tech Roadshows. Participants walked with us in Balboa Park to snap 360° images, now we show how you can use these images to create VR Tours that align with curriculum standards. The objectives of this demonstration are: 1) to experience a mini VR Tour, 2) To engage with our lesson building template, 3) to learn to upload 360° images, 4) See how easy it is to build in Google VR. &nbsp;<a href=\"https://docs.google.com/presentation/d/14DGchJlOSAKvb2nBtr2wChOcBy8sJ9XMChbWjzSlzvI/edit?usp=sharing\" target=\"_blank\"><b>Link to presentation</b></a>.<br><span style=\"font-size: 1.07rem; background-color: rgb(255, 255, 255);\"><br><a href=\"https://sdcoe.zoom.us/j/202242623\" target=\"_blank\" style=\"font-weight: bold; font-size: 1.07rem; background-color: rgb(255, 255, 255);\">Link to webinar.</a></span><span style=\"font-size: 1.07rem;\">&nbsp;</span><span style=\"font-size: 1.07rem;\">(Note you will enter as a muted participant. Meeting opens at 3:50. You may be asked to download Zoom software. )</span></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -424,10 +335,71 @@
               "color": "#000000"
             },
             "P": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_anchor": "msg-box4-2n"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "48",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1400x1400.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Cyber Envy",
+          "text": "<p><b>11/19/19</b><br><span style=\"font-size: 1.07rem;\">Dr. Alicia Gallegos Butters launches our new series with a serious discussion around a new phenomenon that effects both adults and students alike. In today's social media influenced society how do you navigate the unrealistic expectations of perfection that can cause depression, feelings of inadequacy, and even envy?</span></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2l",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_styles": {
@@ -538,13 +510,13 @@
           "caption1": "<b>Being a presenter is easy! The Ed Tech team will provide you with a basic presentation template, the Zoom link for your session, and serve as your co-host as you present. We ask that you prepare the slides using the tmplate and provide a basic transcript of what you are going to say during the presentation. We will do the rest.&nbsp;</b>",
           "title2": "edTECH-O Tuesdays<br>Begins Nov. 12",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "<b>Hear from mentor educators showcasing innovation in schools. become an early-adopter of new technologies. learn how meaningful technology integration improves outcomes. Connect with other educators throughout San Diego county. Implement ideas immediately with hands on curriculum.</b><br><b><br></b>",
+          "caption2": "Hear from mentor educators showcasing innovation in schools. become an early-adopter of new technologies. learn how meaningful technology integration improves outcomes. Connect with other educators throughout San Diego county. Implement ideas immediately with hands on curriculum.",
           "title3": "Schedule of Sessions<br>for 2019-2020 School Year",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "<b>Interested in what sessions we are offering for this school year? We will be adding to the schedule as presenters are accepted. Is there something you would like to learn more about? Email <a href=\"mailto:michanne.hoctorthompson@sdcoe.net\">Michanne Hoctor Thompson, Ed.D.</a>&nbsp;<br><br>Check back frequently for any updates.</b>",
+          "caption3": "Interested in what sessions we are offering for this school year? We will be adding to the schedule as presenters are accepted. Is there something you would like to learn more about? Email <a href=\"mailto:michanne.hoctorthompson@sdcoe.net\">Michanne Hoctor Thompson, Ed.D.</a>&nbsp;<br><br>Check back frequently for any updates.",
           "title4": "Webinar Archives on our YouTube Channel",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "<b>Missed a webinar? Don't worry, all of our sessions are archived into our YouTube playlist.&nbsp;<br><br>Click the Archives button below to go directly to our edTECH-O playlist.&nbsp;While you are there be sure to subscribe and share the link with your colleagues.&nbsp;</b>",
+          "caption4": "Our most recent webinars will be featured here on the website.<br><br>Missed a webinar? Don't worry, all of our sessions are archived into our YouTube playlist.&nbsp;<br><br>While you are there be sure to subscribe and share the link with your colleagues.&nbsp;",
           "title5": "Trendy Website Blocks",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
@@ -552,9 +524,9 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button1": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLScNVJkbVIdhsCfLUUukItD-nNcAmajvuTuUAT_dEPnVfqASdA/viewform?usp=sf_link\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRESENTER APPLICATION</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/document/d/14EDHBtcMrjIAV_XzqaODE5E0wnqlXQHvYYdCcYDVFpY/edit?usp=sharing\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SCHEDULE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ARCHIVES</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ARCHIVES</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
@@ -696,7 +668,7 @@
             "paddingBottom": 1,
             "bgColor": "#a2c638"
           },
-          "text": "<blockquote>Educational Technology team presents edTECH-O Tuesdays in partnership with our Professional Learning Network who are expert classroom practitioners from throughout San Diego county. We thank our sponsors for their generous donations. &nbsp;</blockquote>",
+          "text": "<blockquote>Educational Technology team presents edTECH-O Tuesdays in partnership with our Professional Learning Network who are expert classroom practitioners from throughout San Diego county. We thank our sponsors for their generous donation. &nbsp;</blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -759,7 +731,7 @@
             "Theme"
           ],
           "text": "FOLLOW US and SUBSCRIBE",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/search?q=%23innovatesd&amp;src=typed_query\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-danger\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/search?q=%23innovatesd&amp;src=typed_query\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       ",
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-2m"
         }

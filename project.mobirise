@@ -316,7 +316,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/ikigai-640x459.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",

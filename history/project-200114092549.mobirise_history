@@ -50,7 +50,9 @@
     "uniqCompNum": 98,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {

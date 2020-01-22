@@ -393,18 +393,18 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/chrisgarcia-jan-14-1400x875.jpg",
+              "src": "@PROJECT_PATH@/assets/images/chrisgarcia_jan-14-1400x875.jpg",
               "link": "https://sdcoe.zoom.us/j/140138224",
               "alt": "Placeholder image",
               "title": "Destination VR placeholder image",
-              "linkInNewWindow": true,
-              "active": true
+              "linkInNewWindow": true
             },
             "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
+              "src": "https://youtu.be/ytMVh5fDFhU",
               "aspectratio": "16:9",
               "autoplay": "on",
-              "loop": false
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -413,7 +413,7 @@
             }
           },
           "title": "<a href=\"https://docs.google.com/presentation/d/1aPm27U0zfBJ2a6TfmlQo5OTmvLPyywi0kLLOTZi97D0/edit?usp=sharing\" target=\"_blank\">Broadcast Your Own Podcast</a>",
-          "text": "<p><b>1/14/2020</b><br>Chris Garcia, STEAM Resource Teacher/Engineering Instructor at Chula Vista Elementary School District's Innovation Station and the Host of his own Innovative Pedagogy Podcast, will share how to create an authentic communityvoice to share educational topics, trends and updates. With tips on how to start a podcast!</p><p>Join us for the live webinar!</p><p><br></p>",
+          "text": "<p><b>1/14/2020</b><br><b>Chris Garcia, STEAM Resource Teacher/Engineering Instructor at Chula Vista Elementary School District's Innovation Station and the Host of his own Innovative Pedagogy Podcast, will share how to create an authentic communityvoice to share educational topics, trends and updates. With tips on how to start a podcast!</b></p><p><b>Link to presentation</b></p><p><br></p>",
           "_tags": [
             "Theme"
           ],

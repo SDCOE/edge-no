@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#991311",
+        "#f48483",
         "#c46948",
         "#88caba",
         "#ff0000",
         "#a2c639",
-        "#a2c638",
-        "#99b4c2",
-        "#f29b30"
+        "#a2c638"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -325,7 +325,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#553982",
+            "overlayColor": "#f48483",
             "overlayOpacity": "0.7"
           },
           "media": {
@@ -359,10 +359,10 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "color": "#f97352"
+              "color": "#991311"
             },
             "P": {
-              "color": "#f97352"
+              "color": "#991311"
             }
           },
           "_anchor": "msg-box4-2o"

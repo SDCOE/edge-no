@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#c46948",
         "#88caba",
         "#ff0000",
         "#a2c639",
         "#a2c638",
         "#99b4c2",
-        "#f29b30"
+        "#f29b30",
+        "#f2c230"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -50,7 +50,9 @@
     "uniqCompNum": 99,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -311,74 +313,12 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "inverse": false,
-            "imageSize": "63",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1242.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#553982",
-            "overlayOpacity": "0.7"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/cdixon-et-otuesday2-1399x780.jpg",
-              "link": "https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing",
-              "alt": "Real World Challenges with the SDGs showcases \"Life below water\" issues ",
-              "title": "DPK Placeholder image",
-              "linkInNewWindow": true,
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Design Thinking, Engineering &amp; Innovation - <br>a K-8 Model",
-          "text": "<p><b>1/28/2020</b><br><b>Christine Dixon explores how DPK weaves innovation into all content via DT, engineering, coding, robotics, 3D, AR/VR +! We will get the chance to explore these areas along with a plethora of resources to begin and/or extend your own classroom practice.</b><br>&nbsp;<br><b>&nbsp;&nbsp;Join us!&nbsp;<a href=\"https://sdcoe.zoom.us/j/488366716\" target=\"_blank\" class=\"text-info\"><b>Link to webinar</b>.</a></b></p><p><b>Link to presentation</b>.&nbsp;<b><a href=\"https://sdcoe.zoom.us/j/488366716\" target=\"_blank\" class=\"text-info\"><br></a></b></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#f97352"
-            },
-            "P": {
-              "color": "#f97352"
-            }
-          },
-          "_anchor": "msg-box4-2o"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
             "inverse": true,
             "imageSize": "48",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/podcast-mic-960x720.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/podcast%20mic-960x720.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -393,7 +333,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/chrisgarcia-jan-14-1400x875.jpg",
+              "src": "@PROJECT_PATH@/assets/images/chrisgarcia_jan-14-1400x875.jpg",
               "link": "https://sdcoe.zoom.us/j/140138224",
               "alt": "Placeholder image",
               "title": "Destination VR placeholder image",
@@ -428,6 +368,68 @@
             }
           },
           "_anchor": "msg-box4-2q"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "48",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ikigai-640x459.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#88caba",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ikigai-for-all-future-ready-students-poster-1400x1044.png",
+              "link": "https://sdcoe.zoom.us/j/358000143",
+              "alt": "Components of Being Future Ready with Ikigai - PDF found at: https://drive.google.com/file/d/1n44CLPdinDVjaekgr7_benhPhP5tL4yn/view?usp=sharing",
+              "title": "Ikigai Placeholder image",
+              "linkInNewWindow": true,
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Ikigai For All",
+          "text": "<p><b>12/17/19</b><br><b>Jewyl Clark presents on helping all students to find their purpose (Ikigai). <a href=\"https://docs.google.com/presentation/d/1nVT8uhipgz-9ZjtDFg-p6NanUBKtL2gpk-peUMGXIXo/edit?usp=sharing\">Link to presentation</a>. Her presentation will focus on ensuring students are future ready by identifying their interests, relating those to their individual strengths and interests, then connecting those to the world of work. Join us!&nbsp;<a href=\"https://www.youtube.com/watch?v=ADUStap2ns0&amp;feature=youtu.be\" target=\"_blank\">Link to webinar.</a></b></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "msg-box4-2o"
         },
         {
           "_styles": {

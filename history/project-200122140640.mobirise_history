@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "EdTech-o | San Diego County Office of Education - Innovation | #innovateSD-clone",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -50,7 +50,9 @@
     "uniqCompNum": 101,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -68,7 +70,7 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -82,7 +84,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\"><span class=\"mobi-mbri mobi-mbri-user-2 mbr-iconfont mbr-iconfont-btn\"></span>PRESENT &amp; SUBSCRIBE&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\"><span class=\"mobi-mbri mobi-mbri-star mbr-iconfont mbr-iconfont-btn\"></span>FEATURED WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\"><span class=\"mobi-mbri mobi-mbri-opened-folder mbr-iconfont mbr-iconfont-btn\"></span>ARCHIVES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\">PRESENT &amp; SUBSCRIBE&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\">FEATURED WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">ARCHIVES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -331,7 +333,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/cdixon-et-otuesday2-1399x780.jpg",
+              "src": "@PROJECT_PATH@/assets/images/cdixon_et-otuesday2-1399x780.jpg",
               "link": "https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing",
               "alt": "Real World Challenges with the SDGs showcases \"Life below water\" issues ",
               "title": "DPK Placeholder image",
@@ -378,7 +380,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/podcast-mic-960x720.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/podcast%20mic-960x720.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -777,7 +779,7 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -791,7 +793,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\"><span class=\"mobi-mbri mobi-mbri-user-2 mbr-iconfont mbr-iconfont-btn\"></span>PRESENT &amp; SUBSCRIBE&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\"><span class=\"mobi-mbri mobi-mbri-star mbr-iconfont mbr-iconfont-btn\"></span>FEATURED WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\"><span class=\"mobi-mbri mobi-mbri-opened-folder mbr-iconfont mbr-iconfont-btn\"></span>ARCHIVES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\">PRESENT &amp; SUBSCRIBE&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2n\">FEATURED WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">ARCHIVES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
           "_tags": [
             "Theme"
           ],

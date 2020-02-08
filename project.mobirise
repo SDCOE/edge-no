@@ -313,6 +313,68 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
+            "inverse": true,
+            "imageSize": "48",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cte%20icons-799x562.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#88caba",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/debbievanbeck-932x526.png",
+              "link": "https://sdcoe.zoom.us/j/381834998",
+              "alt": "Placeholder image",
+              "title": "K3 Classroom Jobs placeholder image",
+              "linkInNewWindow": true,
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/ytMVh5fDFhU",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<a href=\"https://sdcoe.zoom.us/j/381834998\" target=\"_blank\" class=\"text-primary\">K-3 Classroom Jobs: Building CTE Readiness in Early Classrooms</a>",
+          "text": "<p><b>2/11/2020</b><br><b>Join Debbie Van Beck, Kindergarten teacher in San Diego Unified School District, to learn how she utilizes classroom jobs to build Career Technical Education readiness with her students.</b></p><p><a href=\"https://docs.google.com/presentation/d/1ye1Jau3EPuute-spOI9zLFE8X_92RsOel4YW9Oy0aYA/edit?usp=sharing\"><b>Link to presentation</b></a></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-2q"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": "63",
             "paddingTop": "1",
@@ -337,14 +399,14 @@
               "link": "https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing",
               "alt": "Real World Challenges with the SDGs showcases \"Life below water\" issues ",
               "title": "DPK Placeholder image",
-              "linkInNewWindow": true,
-              "active": true
+              "linkInNewWindow": true
             },
             "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
+              "src": "https://youtu.be/EY2WwBjYoZk",
               "aspectratio": "16:9",
               "autoplay": "on",
-              "loop": false
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -353,7 +415,7 @@
             }
           },
           "title": "Design Thinking, Engineering &amp; Innovation - <br>a K-8 Model",
-          "text": "<p><b>1/28/2020</b><br><b>Christine Dixon explores how DPK weaves innovation into all content via DT, engineering, coding, robotics, 3D, AR/VR +! We will get the chance to explore these areas along with a plethora of resources to begin and/or extend your own classroom practice.</b><br>&nbsp;<br><b>&nbsp;&nbsp;Join us!&nbsp;<a href=\"https://sdcoe.zoom.us/j/488366716\" target=\"_blank\" class=\"text-info\"><b>Link to webinar</b>.</a></b></p><p><b>Link to presentation</b>.&nbsp;<b><a href=\"https://sdcoe.zoom.us/j/488366716\" target=\"_blank\" class=\"text-info\"><br></a></b></p><p><br></p>",
+          "text": "<p><b>1/28/2020</b><br><b>Christine Dixon explores how DPK weaves innovation into all content via DT, engineering, coding, robotics, 3D, AR/VR +! We will get the chance to explore these areas along with a plethora of resources to begin and/or extend your own classroom practice.</b><br><b style=\"font-size: 1.07rem;\"><a href=\"https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing\" target=\"_blank\">Link to presentation</a></b><br></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -368,68 +430,6 @@
             }
           },
           "_anchor": "msg-box4-2o"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "48",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/podcast%20mic-960x720.jpeg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": "0.3"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/chrisgarcia_jan-14-1400x875.jpg",
-              "link": "https://sdcoe.zoom.us/j/140138224",
-              "alt": "Placeholder image",
-              "title": "Destination VR placeholder image",
-              "linkInNewWindow": true
-            },
-            "video": {
-              "src": "https://youtu.be/ytMVh5fDFhU",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<a href=\"https://docs.google.com/presentation/d/1aPm27U0zfBJ2a6TfmlQo5OTmvLPyywi0kLLOTZi97D0/edit?usp=sharing\" target=\"_blank\">Broadcast Your Own Podcast</a>",
-          "text": "<p><b>1/14/2020</b><br><b>Chris Garcia, STEAM Resource Teacher/Engineering Instructor at Chula Vista Elementary School District's Innovation Station and the Host of his own Innovative Pedagogy Podcast, will share how to create an authentic communityvoice to share educational topics, trends and updates. With tips on how to start a podcast!</b></p><p><b>Link to presentation</b></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#f2c230"
-            }
-          },
-          "_anchor": "msg-box4-2q"
         },
         {
           "_styles": {

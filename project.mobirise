@@ -50,7 +50,9 @@
     "uniqCompNum": 101,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -316,7 +318,7 @@
             "paddingTop": "0",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cte-icons-799x562.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cte%20icons-799x562.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",

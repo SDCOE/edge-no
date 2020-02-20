@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap);
+
 
 
 
@@ -114,8 +116,8 @@ h6,
   border-color: #00253c !important;
 }
 .btn-secondary {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #efefef;
+  border-color: #efefef;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -124,14 +126,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #d4d4d4;
-  border-color: #d4d4d4;
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #d4d4d4 !important;
-  border-color: #d4d4d4 !important;
+  background-color: #c9c9c9 !important;
+  border-color: #c9c9c9 !important;
 }
 .btn-info {
   background-color: #00aeef;
@@ -235,8 +237,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #bcbcbc;
+  color: #bcbcbc;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -244,14 +246,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #efefef;
+  border-color: #efefef;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
+  background-color: #efefef !important;
+  border-color: #efefef !important;
 }
 .btn-info-outline {
   background: none;
@@ -545,17 +547,19 @@ section.form .container {
 #header3-2p .mbr-section-subtitle {
   color: #2969b0;
 }
+#msg-box4-2o H3 {
+  color: #ffffff;
+}
+#msg-box4-2o P {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+}
 #msg-box4-2q H3 {
   color: #000000;
 }
 #msg-box4-2q P {
   color: #000000;
-}
-#msg-box4-2o H3 {
-  color: #991311;
-}
-#msg-box4-2o P {
-  color: #991311;
 }
 #header3-2n .mbr-section-title,
 #header3-2n .mbr-section-subtitle {

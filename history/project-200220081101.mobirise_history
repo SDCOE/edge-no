@@ -7,7 +7,7 @@
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#005488",
-        "secondaryColor": "#efefef",
+        "secondaryColor": "#ffffff",
         "successColor": "#90a878",
         "infoColor": "#00aeef",
         "warningColor": "#41a85f",
@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#d61414",
-        "#066bf2",
-        "#7baced",
-        "#1a73e8",
         "#991311",
         "#f48483",
-        "#c46948"
+        "#c46948",
+        "#88caba",
+        "#ff0000",
+        "#a2c639",
+        "#a2c638"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -50,7 +50,9 @@
     "uniqCompNum": 101,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -311,77 +313,12 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "inverse": false,
-            "imageSize": "56",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gsuite2-1237x700.png",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#066bf2",
-            "overlayOpacity": "0.6"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/alicia-feb-25-1234x695.png",
-              "link": "https://docs.google.com/presentation/d/1ufWXj4d6FCYiweFGXvtVOx15NDJxfKy8IM3uzPrGXAw/edit?usp=sharing",
-              "alt": "Title Slide for Google Tips & Tricks",
-              "title": "Placeholder image",
-              "linkInNewWindow": true,
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/EY2WwBjYoZk",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Google <br>Tips and Tricks",
-          "text": "<p><b>2/25/2020</b></p><p><b>4:00 p.m.<br></b><br><b>Alicia Gallegos Butters, Director of Educational Technology at the San Diego County Office of Education, will share just-in-time tips and tricks for working with GSuite applications.</b></p><p><i><a href=\"https://sdcoe.zoom.us/j/564065882\" target=\"_blank\" class=\"text-black\"><b>Join us with this link for the LIVE webinar</b></a></i></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff",
-              "font-size": "17px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          },
-          "_anchor": "msg-box4-2o"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
             "inverse": true,
             "imageSize": "48",
             "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cte-icons-799x562.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cte%20icons-799x562.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -431,6 +368,68 @@
             }
           },
           "_anchor": "msg-box4-2q"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "63",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1242.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f48483",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/cdixon_et-otuesday2-1399x780.jpg",
+              "link": "https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing",
+              "alt": "Real World Challenges with the SDGs showcases \"Life below water\" issues ",
+              "title": "DPK Placeholder image",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://youtu.be/EY2WwBjYoZk",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Design Thinking, Engineering &amp; Innovation - <br>a K-8 Model",
+          "text": "<p><b>1/28/2020</b><br><b>Christine Dixon explores how DPK weaves innovation into all content via DT, engineering, coding, robotics, 3D, AR/VR +! We will get the chance to explore these areas along with a plethora of resources to begin and/or extend your own classroom practice.</b><br><b style=\"font-size: 1.07rem;\"><a href=\"https://docs.google.com/presentation/d/1alGLvdn0XHMvm8sA78Fp9dnRsOjAuHseeq4Z022byNk/edit?usp=sharing\" target=\"_blank\">Link to presentation</a></b><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#991311"
+            },
+            "P": {
+              "color": "#991311"
+            }
+          },
+          "_anchor": "msg-box4-2o"
         },
         {
           "_styles": {

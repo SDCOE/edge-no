@@ -313,68 +313,6 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "inverse": true,
-            "imageSize": "48",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/designthinking-278x181.png",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#d61414",
-            "overlayOpacity": "0.7"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/craig_mar10-1021x577.png",
-              "link": "https://sdcoe.zoom.us/j/898074860",
-              "alt": "Placeholder image",
-              "title": "Design Thinking Can Impact Your Classroom placeholder image",
-              "linkInNewWindow": true,
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/_SR-CFUYrjA",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<a href=\"https://sdcoe.zoom.us/j/898074860\" target=\"_blank\" class=\"text-warning\">Design Thinking Can Impact Your Classroom</a>",
-          "text": "<p><b>2/11/2020</b><br><b>Craig Leach,Technology Coordinator in Cardiff School District, will share how to build a 1-year Design Thinking project for classroom teachers and utilize this process within the learning cycle. This will include a refresher on the rationale behind Design Thinking. You won't want to miss this one!&nbsp;</b></p><p><b><a href=\"https://sdcoe.zoom.us/j/898074860\" target=\"_blank\" class=\"text-primary\">Link to LIVE webinar, beginning at 4:00 p.m.</a></b></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "msg-box4-2q"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
             "inverse": false,
             "imageSize": "56",
             "paddingTop": "0",
@@ -399,14 +337,14 @@
               "link": "https://docs.google.com/presentation/d/1ufWXj4d6FCYiweFGXvtVOx15NDJxfKy8IM3uzPrGXAw/edit?usp=sharing",
               "alt": "Title Slide for Google Tips & Tricks",
               "title": "Placeholder image",
-              "linkInNewWindow": true
+              "linkInNewWindow": true,
+              "active": true
             },
             "video": {
-              "src": "https://youtu.be/EHcpEXg8mhI",
+              "src": "https://youtu.be/EY2WwBjYoZk",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false,
-              "active": true
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -415,7 +353,7 @@
             }
           },
           "title": "Google <br>Tips and Tricks",
-          "text": "<p><b>2/25/2020</b></p><p><br><b>Alicia Gallegos Butters, Director of Educational Technology at the San Diego County Office of Education, will share just-in-time tips and tricks for working with GSuite applications.</b></p><p><i><b>Google Basics Slides</b></i></p>",
+          "text": "<p><b>2/25/2020</b></p><p><b>4:00 p.m.<br></b><br><b>Alicia Gallegos Butters, Director of Educational Technology at the San Diego County Office of Education, will share just-in-time tips and tricks for working with GSuite applications.</b></p><p><i><a href=\"https://sdcoe.zoom.us/j/564065882\" target=\"_blank\" class=\"text-black\"><b>Join us with this link for the LIVE webinar</b></a></i></p>",
           "_tags": [
             "Theme"
           ],
@@ -433,6 +371,68 @@
             }
           },
           "_anchor": "msg-box4-2o"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "48",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cte-icons-799x562.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#88caba",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/debbievanbeck-932x526.png",
+              "link": "https://sdcoe.zoom.us/j/381834998",
+              "alt": "Placeholder image",
+              "title": "K3 Classroom Jobs placeholder image",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://youtu.be/_SR-CFUYrjA",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<a href=\"https://sdcoe.zoom.us/j/381834998\" target=\"_blank\" class=\"text-primary\">K-3 Classroom Jobs: Building CTE Readiness in Early Classrooms</a>",
+          "text": "<p><b>2/11/2020</b><br><b>Join Debbie Van Beck, Kindergarten teacher in San Diego Unified School District, to learn how she utilizes classroom jobs to build Career Technical Education readiness with her students.</b></p><p><a href=\"https://docs.google.com/presentation/d/1ye1Jau3EPuute-spOI9zLFE8X_92RsOel4YW9Oy0aYA/edit?usp=sharing\"><b>Link to presentation</b></a></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-2q"
         },
         {
           "_styles": {

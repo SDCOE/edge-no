@@ -6,8 +6,8 @@
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#005488",
-        "secondaryColor": "#efefef",
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#ffffff",
         "successColor": "#90a878",
         "infoColor": "#00aeef",
         "warningColor": "#41a85f",
@@ -50,9 +50,7 @@
     "uniqCompNum": 101,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents"
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -333,7 +331,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/craig_mar10-1021x577.png",
+              "src": "@PROJECT_PATH@/assets/images/craig-mar10-1021x577.png",
               "link": "https://sdcoe.zoom.us/j/898074860",
               "alt": "Placeholder image",
               "title": "Design Thinking Can Impact Your Classroom placeholder image",
@@ -352,7 +350,7 @@
               "size": 250
             }
           },
-          "title": "<a href=\"https://sdcoe.zoom.us/j/898074860\" target=\"_blank\" class=\"text-warning\">Design Thinking Can Impact Your Classroom</a>",
+          "title": "<a href=\"https://sdcoe.zoom.us/j/898074860\" target=\"_blank\" class=\"text-primary\">Design Thinking Can Impact Your Classroom</a>",
           "text": "<p><b>2/11/2020</b><br><b>Craig Leach,Technology Coordinator in Cardiff School District, will share how to build a 1-year Design Thinking project for classroom teachers and utilize this process within the learning cycle. This will include a refresher on the rationale behind Design Thinking. You won't want to miss this one!&nbsp;</b></p><p><b><a href=\"https://sdcoe.zoom.us/j/898074860\" target=\"_blank\" class=\"text-primary\">Link to LIVE webinar, beginning at 4:00 p.m.</a></b></p>",
           "_tags": [
             "Theme"
@@ -364,7 +362,7 @@
               "color": "#000000"
             },
             "P": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "msg-box4-2q"

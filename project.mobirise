@@ -50,7 +50,9 @@
     "uniqCompNum": 101,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -331,7 +333,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/craig-mar10-1021x577.png",
+              "src": "@PROJECT_PATH@/assets/images/craig_mar10-1021x577.png",
               "link": "https://sdcoe.zoom.us/j/898074860",
               "alt": "Placeholder image",
               "title": "Design Thinking Can Impact Your Classroom placeholder image",

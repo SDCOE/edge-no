@@ -48,7 +48,7 @@
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
     "uniqCompNum": 102,
-    "versionPublish": "4.10.8",
+    "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
   },
@@ -134,7 +134,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#066bf2!important"
+              "color": "#ffffff!important"
             }
           },
           "logo": {
@@ -555,7 +555,7 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button1": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLScNVJkbVIdhsCfLUUukItD-nNcAmajvuTuUAT_dEPnVfqASdA/viewform?usp=sf_link\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRESENTER APPLICATION</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/document/d/14EDHBtcMrjIAV_XzqaODE5E0wnqlXQHvYYdCcYDVFpY/edit?usp=sharing\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SCHEDULE</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ARCHIVES</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",

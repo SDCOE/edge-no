@@ -532,25 +532,12 @@ section.form .container {
 #msg-box5-26 B {
   font-size: 30px;
 }
-#msg-box4-2j H3 {
-  color: #000000;
-  font-size: 36px;
-}
-#msg-box4-2j P {
-  color: #000000;
-}
 #header3-2p .mbr-section-title,
 #header3-2p .mbr-section-subtitle {
   text-align: center;
 }
 #header3-2p .mbr-section-subtitle {
   color: #2969b0;
-}
-#msg-box4-2t H3 {
-  color: #ffffff;
-}
-#msg-box4-2t P {
-  color: #ffffff;
 }
 #msg-box4-2o H3 {
   color: #ffffff;
@@ -559,6 +546,12 @@ section.form .container {
   color: #ffffff;
   font-size: 17px;
   font-family: 'Raleway', sans-serif;
+}
+#msg-box4-2t H3 {
+  color: #ffffff;
+}
+#msg-box4-2t P {
+  color: #ffffff;
 }
 #header3-2n .mbr-section-title,
 #header3-2n .mbr-section-subtitle {

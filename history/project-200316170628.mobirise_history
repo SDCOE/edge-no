@@ -47,10 +47,12 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 104,
+    "uniqCompNum": 102,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -224,19 +226,20 @@
           }
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "37",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#a2c639",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -247,30 +250,39 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "active": true,
+              "src": "https://youtu.be/cZjOPZ4zIbA",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
-              "size": 0
+              "size": 250
             }
           },
-          "title": "Welcome",
-          "text": "The SDCOE Ed Tech team is excited to present special edTECH-O Tuesdays. The team will co-host 45 minute webinars periodically throughout the school closures. Make sure to subscribe so you don't miss any of the important tips and information. &nbsp;<br>The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view.\n<br>Have a need? Please drop us a line in our <i><b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScyd9j4_O5FqmC3dvf3QvPIeaFL5kFkEKp7rS4jyRSs4IHVPQ/viewform?usp=sf_link\" target=\"_blank\">survey</a></b></i>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "title": "Welcome!",
+          "text": "<p>The SDCOE Ed Tech team is excited to present edTECH-O Tuesdays. Every other Tuesday from 4 p.m. to 4:45 p.m. the team will co-host a 45 minute virtual session where an educator or student from San Diego County shares something innovative they have done, or are doing, in their classroom or beyond. The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-2v"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html#features1-j\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2j",
+          "_styles": {
+            "H3": {
+              "color": "#000000",
+              "font-size": "36px"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_styles": {
@@ -294,71 +306,6 @@
           ],
           "_name": "header3",
           "_anchor": "header3-2p"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "45",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/online-courses-1024x768.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#7baced",
-            "overlayOpacity": "0.6"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/educational-continuity-3-17-20-960x540.png",
-              "link": "https://sdcoe.zoom.us/j/538557971",
-              "alt": "Title Slide for Educational Continuity",
-              "title": "Enrichment for Learning in Response to Emergencies",
-              "linkInNewWindow": true,
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/EHcpEXg8mhI",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Educational Continuity",
-          "text": "<p><b>2/25/2020</b></p><p><br><b>The Ed Tech team will&nbsp;discuss ideas and issues to consider while supporting student learning outside the classroom environment. We will provide a menu of online communication options and equip educators with a framework for sifting through the information available to best help your students and families.&nbsp;</b></p><p><i><b>Slides for Educational Continuity</b></i></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Subscribe</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff",
-              "font-size": "17px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          },
-          "_anchor": "msg-box4-2o"
         },
         {
           "_inherit": "msg-box5",
@@ -421,6 +368,71 @@
             }
           },
           "_anchor": "msg-box4-2t"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "56",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gsuite2-1237x700.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#066bf2",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/alicia-feb-25-1234x695.png",
+              "link": "https://docs.google.com/presentation/d/1ufWXj4d6FCYiweFGXvtVOx15NDJxfKy8IM3uzPrGXAw/edit?usp=sharing",
+              "alt": "Title Slide for Google Tips & Tricks",
+              "title": "Placeholder image",
+              "linkInNewWindow": true
+            },
+            "video": {
+              "src": "https://youtu.be/EHcpEXg8mhI",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Google <br>Tips and Tricks",
+          "text": "<p><b>2/25/2020</b></p><p><br><b>Alicia Gallegos Butters, Director of Educational Technology at the San Diego County Office of Education, will share just-in-time tips and tricks for working with GSuite applications.</b></p><p><i><b>Google Basics Slides</b></i></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-size": "17px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_anchor": "msg-box4-2o"
         },
         {
           "_styles": {

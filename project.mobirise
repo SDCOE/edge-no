@@ -321,18 +321,18 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/educational-continuity-3-17-20-960x540.png",
+              "src": "@PROJECT_PATH@/assets/images/educational%20continuity%203-17-20-960x540.png",
               "link": "https://sdcoe.zoom.us/j/538557971",
               "alt": "Title Slide for Educational Continuity",
               "title": "Enrichment for Learning in Response to Emergencies",
-              "linkInNewWindow": true,
-              "active": true
+              "linkInNewWindow": true
             },
             "video": {
-              "src": "https://youtu.be/EHcpEXg8mhI",
+              "src": "https://youtu.be/RM5xlG6hQ5M",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",

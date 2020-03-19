@@ -47,10 +47,12 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 108,
+    "uniqCompNum": 104,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -224,57 +226,19 @@
           }
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#2969b0"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#000000"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": true,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Welcome!",
-          "text": "The SDCOE Ed Tech team is excited to present special edTECH-O Tuesdays. The team will co-host 45 minute webinars periodically throughout the school closures. Make sure to subscribe so you don't miss any of the important tips and information.  \n<div>The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view. \n</div><div>Have a need? Please drop us a line in our survey.</div>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-2y"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#00a885",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -287,7 +251,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -301,8 +265,8 @@
               "size": 0
             }
           },
-          "title": "Office Hours",
-          "text": "Join Zoom Meeting<br>Virtual, open office hours will be accessible from 9:00 a.m. to 12:00 p.m.<br>An Ed Tech team member will be available to advise and support you with the implementation of your distance learning goals.",
+          "title": "Welcome",
+          "text": "The SDCOE Ed Tech team is excited to present special edTECH-O Tuesdays. The team will co-host 45 minute webinars periodically throughout the school closures. Make sure to subscribe so you don't miss any of the important tips and information. &nbsp;<br>The objective of these sessions is to share quick tips with our community in an accessible way. All sessions will be both live and later archived for ample opportunities to view.\n<br>Have a need? Please drop us a line in our <i><b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScyd9j4_O5FqmC3dvf3QvPIeaFL5kFkEKp7rS4jyRSs4IHVPQ/viewform?usp=sf_link\" target=\"_blank\">survey</a></b></i>.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
           "_tags": [
             "Theme"
@@ -339,74 +303,12 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "inverse": true,
-            "imageSize": "37",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#a2c639",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/communication-with-ss-833x467.png",
-              "link": "",
-              "alt": "Communication with Students",
-              "title": "Placeholder slide for presentation",
-              "active": true
-            },
-            "video": {
-              "src": "https://youtu.be/cZjOPZ4zIbA",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Communication with Students",
-          "text": "<p>Another special session of edTECH-O! Today, join us for a webinar on both synchronous and asynchronous communication options. We will share our favorites along with tricks and etiquette to follow.</p><p><a href=\"https://docs.google.com/presentation/d/1M4n1d5h8o3CdW-x1wsB_0L-Ah_qC9bJxAwGBeGsRu8Q/edit?usp=sharing\" target=\"_blank\">Link to presentation</a></p><p><a href=\"https://sdcoe.zoom.us/j/424361040\" target=\"_blank\">Zoom Link</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html#features1-j\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#000000",
-              "font-size": "36px"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "msg-box4-2z"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
             "inverse": false,
             "imageSize": "45",
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/online-courses-1024x768.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/online%20courses-1024x768.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",

@@ -11,7 +11,7 @@
         "successColor": "#066bf2",
         "infoColor": "#00aeef",
         "warningColor": "#41a85f",
-        "dangerColor": "#d61414",
+        "dangerColor": "#ff0000",
         "titleFont": "Raleway",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
@@ -47,7 +47,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 111,
+    "uniqCompNum": 108,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on"
@@ -302,7 +302,7 @@
             }
           },
           "title": "Office Hours",
-          "text": "<a href=\"https://sdcoe.zoom.us/j/606413638?pwd=L1JWNjE3SnBaVTM5S202Ukxkbjdvdz09\" target=\"_blank\">Join Zoom Meeting</a><br>Virtual, open office hours accessible from 9:00 a.m. to 12:00 p.m.<br>An Ed Tech team member will be available to advise and support you with the implementation of your distance learning goals.",
+          "text": "Join Zoom Meeting<br>Virtual, open office hours will be accessible from 9:00 a.m. to 12:00 p.m.<br>An Ed Tech team member will be available to advise and support you with the implementation of your distance learning goals.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
           "_tags": [
             "Theme"
@@ -317,9 +317,6 @@
             },
             ".mbr-section-subtitle": {
               "color": "#2969b0"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
             }
           },
           "_params": {
@@ -328,7 +325,7 @@
             "paddingBottom": 1,
             "bgColor": "#f2c230"
           },
-          "title": "Upcoming Webinars",
+          "title": "Upcoming and Featured Webinars",
           "meta": "",
           "_tags": [
             "Theme"
@@ -399,39 +396,13 @@
           "_anchor": "msg-box4-2z"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#2969b0"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#f2c230"
-          },
-          "title": "Featured Webinars",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-32"
-        },
-        {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
             "inverse": false,
-            "imageSize": "35",
+            "imageSize": "45",
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
@@ -445,7 +416,7 @@
             },
             "overlay": true,
             "overlayColor": "#7baced",
-            "overlayOpacity": "0.9"
+            "overlayOpacity": "0.6"
           },
           "media": {
             "image": {
@@ -470,7 +441,7 @@
             }
           },
           "title": "Educational Continuity",
-          "text": "<p><b>3/17/2020</b></p><p><br><b>The Ed Tech team shares ideas and issues to consider while supporting student learning outside the classroom environment. We provide a menu of online communication options and equip educators with a framework for sifting through the information available to best help your students and families.&nbsp;</b></p><p><i><a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQNDaFas9jQOmv903bMO-YXbICqCUxAPhtnOcd3ZADQPenQXoA5zbT5kzUcSFZ6IoM4jCbqpcbA-NFN/pub?start=false&amp;loop=false&amp;delayms=60000\" target=\"_blank\"><b>Slides for Educational Continuity</b></a></i></p>",
+          "text": "<p><b>3/17/2020</b></p><p><br><b>The Ed Tech team will&nbsp;discuss ideas and issues to consider while supporting student learning outside the classroom environment. We will provide a menu of online communication options and equip educators with a framework for sifting through the information available to best help your students and families.&nbsp;</b></p><p><i><a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQNDaFas9jQOmv903bMO-YXbICqCUxAPhtnOcd3ZADQPenQXoA5zbT5kzUcSFZ6IoM4jCbqpcbA-NFN/pub?start=false&amp;loop=false&amp;delayms=60000\" target=\"_blank\"><b>Slides for Educational Continuity</b></a></i></p>",
           "_tags": [
             "Theme"
           ],
@@ -478,10 +449,10 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "color": "#b8312f"
+              "color": "#ffffff"
             },
             "P": {
-              "color": "#991311",
+              "color": "#ffffff",
               "font-size": "17px",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"

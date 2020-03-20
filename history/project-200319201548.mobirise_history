@@ -304,18 +304,13 @@
             }
           },
           "title": "Office Hours",
-          "text": "<b><a href=\"https://sdcoe.zoom.us/j/606413638?pwd=L1JWNjE3SnBaVTM5S202Ukxkbjdvdz09\" target=\"_blank\">Join Zoom Meeting</a></b><br><br>Virtual, open office hours accessible from 9:00 a.m. to 12:00 p.m.<br>An Ed Tech team member will be available to advise and support you with the implementation of your distance learning goals.",
+          "text": "<a href=\"https://sdcoe.zoom.us/j/606413638?pwd=L1JWNjE3SnBaVTM5S202Ukxkbjdvdz09\" target=\"_blank\">Join Zoom Meeting</a><br>Virtual, open office hours accessible from 9:00 a.m. to 12:00 p.m.<br>An Ed Tech team member will be available to advise and support you with the implementation of your distance learning goals.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-2v",
-          "_styles": {
-            "P": {
-              "color": "#000000"
-            }
-          }
+          "_anchor": "msg-box5-2v"
         },
         {
           "_styles": {

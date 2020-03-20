@@ -50,7 +50,9 @@
     "uniqCompNum": 111,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents"
   },
   "pages": {
     "index.html": {

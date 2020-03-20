@@ -51,9 +51,7 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -73,7 +71,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
             "bgColor": "#055ba6",
             "fontSize": "1.3",
@@ -162,11 +160,11 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": false,
+            "showText": false,
+            "showButtons": true,
             "inverse": true,
             "imageSize": "20",
-            "paddingTop": "0",
+            "paddingTop": "3",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/taco2-1-812x607.jpeg",
@@ -203,8 +201,8 @@
             }
           },
           "title": "edTECH-O Tuesdays<br>",
-          "text": "<b>4 p.m.<br>See schedule below</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SCHEDULE</a>",
           "_tags": [
             "Theme"
           ],
@@ -909,7 +907,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
             "bgColor": "#055ba6",
             "fontSize": "1.3",

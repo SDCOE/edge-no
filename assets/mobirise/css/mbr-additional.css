@@ -551,12 +551,11 @@ section.form .container {
 #header3-2p .mbr-section-title {
   color: #ffffff;
 }
-#msg-box4-2z H3 {
-  color: #000000;
-  font-size: 36px;
+#msg-box4-33 H3 {
+  color: #ffffff;
 }
-#msg-box4-2z P {
-  color: #000000;
+#msg-box4-33 P {
+  color: #ffffff;
 }
 #header3-32 .mbr-section-title,
 #header3-32 .mbr-section-subtitle {
@@ -567,6 +566,13 @@ section.form .container {
 }
 #header3-32 .mbr-section-title {
   color: #ffffff;
+}
+#msg-box4-2z H3 {
+  color: #000000;
+  font-size: 36px;
+}
+#msg-box4-2z P {
+  color: #000000;
 }
 #msg-box4-2o H3 {
   color: #b8312f;

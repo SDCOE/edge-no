@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -382,7 +384,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/21st-c-skills-v2-600x407.png",
+              "src": "@PROJECT_PATH@/assets/images/21st%20c%20skills%20v2-600x407.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -404,7 +406,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/global-leanring-261x193.jpg",
+              "src": "@PROJECT_PATH@/assets/images/global%20leanring-261x193.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,

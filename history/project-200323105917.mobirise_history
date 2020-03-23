@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents/GitHub/edtecho"
   },
   "pages": {
     "index.html": {
@@ -404,7 +406,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/global-leanring-261x193.jpg",
+              "src": "@PROJECT_PATH@/assets/images/global%20leanring-261x193.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -431,7 +433,7 @@
           },
           "title1": "Monday, 3/23/20",
           "subtitle1": "4:00 - 4:45 p.m.",
-          "caption1": "Building an online presence and communicating with families. We will share ideas for being strategic and build your own brand, along with tips on reaching out to families for online learning opportunities.<br>",
+          "caption1": "Building an online presence and communicating with families.\n<br>",
           "title2": "Wednesday, 3/25/20",
           "subtitle2": "2:00 - 4:00 p.m.",
           "caption2": "Join the Ed Tech team to deepen your understanding of how 21st Century Skills and technology integration skills are related.  We will dive into different technology frameworks to strengthen our knowledge within online teaching and learning. Then, employ the SAMR model to determine a basic understanding of the complexity of technology integrations.&nbsp;",

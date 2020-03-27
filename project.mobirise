@@ -51,9 +51,7 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -384,7 +382,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/21st%20c%20skills%20v2-600x407.png",
+              "src": "@PROJECT_PATH@/assets/images/21st-c-skills-v2-600x407.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -406,7 +404,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/global%20leanring-261x193.jpg",
+              "src": "@PROJECT_PATH@/assets/images/global-leanring-261x193.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -438,8 +436,8 @@
           "subtitle2": "2:00 - 4:00 p.m.",
           "caption2": "Join the Ed Tech team to deepen your understanding of how 21st Century Skills and technology integration skills are related.  We will dive into different technology frameworks to strengthen our knowledge within online teaching and learning. Then, employ the SAMR model to determine a basic understanding of the complexity of technology integrations.&nbsp;",
           "title3": "Friday, 3/27/20",
-          "subtitle3": "10:00 a.m.",
-          "caption3": "Interactive Lessons Online<br>We will explore rapid prototyping in an online environment. This process can be utilized with any learners - TK-12 and adult.",
+          "subtitle3": "Postponed",
+          "caption3": "",
           "title4": "Monday, 3/30 /20",
           "subtitle4": "Time TBD",
           "caption4": "Building an Online Unit<br>In this session, we will share tips and an example of an online unit, along with resources to help you get started. The topic focus will be global learning through an inquiry project. Resources will include digital literacy and a plethora of website resources.",
@@ -451,7 +449,7 @@
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button1": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/939823890\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join 3/23 @ 4 p.m.</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/242978124\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join 3/25 @ 2 p.m.</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/562900387\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join 3/27</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/562900387\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">POSTPONED</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Join 3/30</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -494,68 +492,6 @@
           ],
           "_name": "header3",
           "_anchor": "header3-32"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "48",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@//assets/images/screen-shot-2019-12-03-at-12.14.24-pm-1400x786.png",
-              "link": "https://sdcoe.zoom.us/j/202242623",
-              "alt": "Placeholder image",
-              "title": "Destination VR placeholder image",
-              "linkInNewWindow": true
-            },
-            "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Destination VR",
-          "text": "<p><b>12/3/19</b><br>Building an online presence and communicating with families. We will share ideas for being strategic and build your own brand, along with tips on reaching out to families for online learning opportunities. &nbsp;</p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "msg-box4-35"
         },
         {
           "_inherit": "msg-box5",

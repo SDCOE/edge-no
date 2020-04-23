@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents"
   },
   "pages": {
     "index.html": {
@@ -544,7 +546,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://youtu.be/5bQYRQ26LPM\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/242978124\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/562900387\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">View Recording</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://youtu.be/RM5xlG6hQ5M\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
@@ -560,72 +562,6 @@
               "color": "#ffffff"
             }
           }
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "46",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/online-courses-1024x768.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#7baced",
-            "overlayOpacity": "0.9"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/educational%20continuity%203-17-20-960x540.png",
-              "link": "https://sdcoe.zoom.us/j/538557971",
-              "alt": "Title Slide for Educational Continuity",
-              "title": "Enrichment for Learning in Response to Emergencies",
-              "linkInNewWindow": true
-            },
-            "video": {
-              "src": "https://youtu.be/RM5xlG6hQ5M",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Educational Continuity",
-          "text": "<p><b>3/17/2020</b></p><p><b>The Ed Tech team shares ideas and issues to consider while supporting student learning outside the classroom environment. We provide a menu of online communication options and equip educators with a framework for sifting through the information available to best help your students and families.&nbsp;</b></p><p><i><a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQNDaFas9jQOmv903bMO-YXbICqCUxAPhtnOcd3ZADQPenQXoA5zbT5kzUcSFZ6IoM4jCbqpcbA-NFN/pub?start=false&amp;loop=false&amp;delayms=60000\" target=\"_blank\"><b>Slides for Educational Continuity</b></a></i></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLwf2IOeT_euXwqGEyNCA8v30g8LiQ_gP0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Subscribe</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "color": "#b8312f",
-              "font-size": "36px"
-            },
-            "P": {
-              "color": "#991311",
-              "font-size": "17px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          },
-          "_anchor": "msg-box4-2o"
         },
         {
           "_styles": {

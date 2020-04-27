@@ -51,9 +51,7 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/michanne.hoctorthomp/Documents"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -316,7 +314,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/online%20courses-600x450.jpg",
+              "src": "@PROJECT_PATH@/assets/images/online-courses-600x450.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -338,7 +336,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@//assets/images/fast-food-3222149-1921-600x600.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x600.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -634,7 +632,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x600.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x6001.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,

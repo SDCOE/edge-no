@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700&display=swap);
-
 
 
 
@@ -538,13 +536,6 @@ section.form .container {
 #msg-box2-2y .mbr-section-subtitle {
   color: #000000;
 }
-#msg-box5-2v P {
-  color: #000000;
-  font-size: 18px;
-}
-#msg-box5-2v H3 {
-  font-size: 30px;
-}
 #header3-2p .mbr-section-title,
 #header3-2p .mbr-section-subtitle {
   text-align: center;
@@ -555,11 +546,18 @@ section.form .container {
 #header3-2p .mbr-section-title {
   color: #ffffff;
 }
-#features3-34 H5 {
-  color: #fac51c;
+#features1-36 .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #f97352;
 }
-#features3-34 P {
-  color: #ffffff;
+#features1-36 .mbr-cards-col:nth-child(odd) .card-text {
+  text-align: left;
+}
+#features1-36 .mbr-cards-col:nth-child(even) .card-text {
+  text-align: left;
+  color: #000000;
+}
+#features1-36 .mbr-cards-col:nth-child(even) .card-title {
+  color: #000000;
 }
 #header3-32 .mbr-section-title,
 #header3-32 .mbr-section-subtitle {
@@ -571,28 +569,11 @@ section.form .container {
 #header3-32 .mbr-section-title {
   color: #ffffff;
 }
-#msg-box4-33 H3 {
+#features3-34 H5 {
+  color: #fac51c;
+}
+#features3-34 P {
   color: #ffffff;
-  font-size: 30px;
-}
-#msg-box4-33 P {
-  color: #ffffff;
-}
-#msg-box4-2z H3 {
-  color: #000000;
-  font-size: 36px;
-}
-#msg-box4-2z P {
-  color: #000000;
-}
-#msg-box4-2o H3 {
-  color: #b8312f;
-  font-size: 36px;
-}
-#msg-box4-2o P {
-  color: #991311;
-  font-size: 17px;
-  font-family: 'Raleway', sans-serif;
 }
 #header3-2n .mbr-section-title,
 #header3-2n .mbr-section-subtitle {

@@ -387,7 +387,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://docs.google.com/forms/d/e/1FAIpQLScNVJkbVIdhsCfLUUukItD-nNcAmajvuTuUAT_dEPnVfqASdA/viewform?usp=sf_link\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join April 28, 2020 @ 4 p.m.</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/94207422183\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join April 28, 2020 @ 4 p.m.</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join May 5, 2020 @ 4 p.m.</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://docs.google.com/document/d/14EDHBtcMrjIAV_XzqaODE5E0wnqlXQHvYYdCcYDVFpY/edit?usp=sharing\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join May 12, 2020 @ 4 p.m.</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ARCHIVES</a>",
@@ -632,7 +632,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x6001.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/fast-food-3222149-1921-600x6002.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,

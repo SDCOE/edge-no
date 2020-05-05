@@ -47,13 +47,11 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 115,
+    "uniqCompNum": 117,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -291,130 +289,66 @@
           "_anchor": "header3-2p"
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
+            "showTitle": true,
+            "showText": true,
             "showButtons": true,
-            "columnsColor": "#f97352",
+            "inverse": true,
+            "imageSize": "37",
             "paddingTop": "1",
-            "paddingBottom": "0",
-            "columns": "3",
+            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@//assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#41a85f",
+            "bgColor": "#a2c639",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
-            "overlayColor": "#222",
+            "overlayColor": "#fff",
             "overlayOpacity": 0.5
           },
-          "media1": {
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/online%20courses-600x450.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/wave-960x640.jpg",
               "link": "",
-              "alt": "Mind map for Online Courses - Purposeful virtual spaces, Trust, Good Pedagogy, Asynchronous Communication, Limited Enrollment, Expert Facilitation, Explicit Schedules, Excellent Materials, Quality Assurance",
-              "title": "Placeholder image for Online Courses"
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/wave-600x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
+              "alt": "Big ocean wave breaking with tunnel",
+              "title": "Placeholder image for Catch the Content Curation Wave",
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/cZjOPZ4zIbA",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
-              "alt": "Big ocean wave breaking",
-              "title": "Placeholder image for Catch the Content Curation Wave"
+              "size": 250
             }
           },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@//assets/images/fast-food-3222149-1921-600x600.jpeg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "man looking at online menu",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@//assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Teaching Online<br>",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "We will present an overview and framework for the basics of teaching online. Topics include: building your ecosystem of online instruction, effective tools you to use,&nbsp;online pedagogy - a comparison with F:F teaching, types of communication including how and when they are used, and sharing a strategy for transitioning to online instruction beyond just assigning tasks and activities.<br>",
-          "title2": "Catch the Content Curation Wave<br>May 5, 2020 @ 4:00 p.m.",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "<br><b><br></b>",
-          "title3": "Building an Online Lesson:&nbsp;<br>Leveraging the Power of an LMS, Hyperdocs &amp; Online Tools",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Go beyond just assigning activities online. Now that you have a handle on several online tools, it is time to understand and build in the pedagogy behind online teaching.  We will share a systematic way of building and delivering a simple lesson using tools within GSuite and other online resources. \n<br>\n<br>You will learn how to work with a lesson you have already created or start a new one. Begin transforming your lessons to work within an online environment! &nbsp;<br>",
-          "title4": "Webinar Archives on our YouTube Channel",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "<b>Missed a webinar? Don't worry, all of our sessions are archived into our YouTube playlist.&nbsp;<br><br>Click the Archives button below to go directly to our edTECH-O playlist.&nbsp;While you are there be sure to subscribe and share the link with your colleagues.&nbsp;</b>",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/94207422183\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join April 28, 2020 @ 4 p.m.</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/355501394\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join May 5, 2020 @ 4 p.m.</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/99748582994\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join May 12, 2020 @ 4 p.m.</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/playlist?list=PLBKX17DHdd8qucWfkp5LlpuIXtStaGWd5\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ARCHIVES</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title": "Catch the Content Curation Wave\r<div>May 5, 2020 @ 4:00 p.m.</div>",
+          "text": "<p>Join Andy Jensen, Teacher in San Diego Unified School District, to l<span style=\"font-size: 1.07rem;\">earn one easy and engaging way to boost creativity, collaboration and communication with your students. He will share the accessibility options within the curation tool, Wakelet, and show you examples to get you started curating your own collection of resources.</span></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features1",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://sdcoe.zoom.us/j/355501394\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar</a>",
+          "_name": "msg-box4",
           "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#f97352"
+            "H3": {
+              "color": "#000000",
+              "font-size": "36px"
             },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "text-align": "left"
-            },
-            ".mbr-cards-col:nth-child(even) .card-text": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
+            "P": {
               "color": "#000000"
             }
           },
-          "_anchor": "features1-36"
+          "_anchor": "msg-box4-38"
         },
         {
           "_styles": {
@@ -443,125 +377,66 @@
           "_anchor": "header3-32"
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
+            "showTitle": true,
+            "showText": true,
             "showButtons": true,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "columns": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "inverse": false,
+            "imageSize": "37",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/onlinepresence-275x183.png",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3d8eb9",
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#7baced",
+            "overlayOpacity": "0.6"
           },
-          "media1": {
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/onlinepresence-275x183.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Placeholder - Computer graphic with students learning ",
-              "title": "Online Presence"
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/21st-c-skills-v2-600x407.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "21st c. Skills graphic - Critical Thinking & Problem Solving, Collaboration Across Networks & Leading by Influence, Agility & Adaptability, Initiative & Entrepreneurship, Effective Oral & Written Communication, Accessing & Analyzing Information, and Curiosity & Imagination",
-              "title": "Placeholder graphic - Frameworks and 21st c. Skills"
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/gsuite-210x205.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Icons of mainstay GSuite apps - Calendar, Drive, Contacts, Drawings, Docs, Slides, and Sheets",
-              "title": "Google Tools placeholder image"
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/global-leanring-261x193.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "Globe with children and books around the perimeter.",
-              "title": "Building Online Units placeholder image"
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ikigai-for-all-future-ready-students-poster-1400x1044.png",
+              "link": "https://sdcoe.zoom.us/j/358000143",
+              "alt": "Components of Being Future Ready with Ikigai - PDF found at: https://drive.google.com/file/d/1n44CLPdinDVjaekgr7_benhPhP5tL4yn/view?usp=sharing",
+              "title": "Ikigai Placeholder image",
+              "linkInNewWindow": true,
               "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
             }
           },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Building an Online Presence &amp; Communicating with Parents and Families",
-          "subtitle1": "",
-          "caption1": "When you teach face-to-face it is easy to build your class presence with students and parents. However, when teaching online one must be more mindful of how they present themselves. Learn to take control of telling your story, about yourself, your classroom, your students, and your community. &nbsp;We will share how to leverage technology to build your presence as an educator.  Tools such as Twitter, Instagram, Google and Facebook will be discussed and how you use them to communicate and interact with students, families and the community.&nbsp;<br>",
-          "title2": "Tech Integration Frameworks",
-          "subtitle2": "2:00 - 4:00 p.m.",
-          "caption2": "Join the Ed Tech team to deepen your understanding of how 21st Century Skills and technology integration skills are related.  We will dive into different technology frameworks to strengthen our knowledge within online teaching and learning. Then, employ the SAMR model to determine a basic understanding of the complexity of technology integrations.&nbsp;",
-          "title3": "Google Tools to Distribute Educational Activities",
-          "subtitle3": "<a href=\"https://docs.google.com/presentation/d/1vEEuh-jTtIIS0wvemkJ7T3sAhTWnpL0TpReZPYprRMU/edit?usp=sharing\" target=\"_blank\">Slides</a>",
-          "caption3": "Your Ed Tech team gives an overview of Google Classroom, Drive, Docs and Forms. Learn how to use these tools to transition to an online or blended learning environement.",
-          "title4": "Educational Continuity",
-          "subtitle4": "<a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQNDaFas9jQOmv903bMO-YXbICqCUxAPhtnOcd3ZADQPenQXoA5zbT5kzUcSFZ6IoM4jCbqpcbA-NFN/pub?start=false&amp;loop=false&amp;delayms=60000\" target=\"_blank\">Slides for Educational Continuity</a>",
-          "caption4": "The Ed Tech team shares ideas and issues to consider while supporting student learning outside the classroom environment. We provide a menu of online communication options and equip educators with a framework for sifting through the information available to best help your students and families.&nbsp;",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://youtu.be/5bQYRQ26LPM\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/242978124\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://sdcoe.zoom.us/j/562900387\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://youtu.be/RM5xlG6hQ5M\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Recording</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title": "Teaching Online",
+          "text": "<p><span style=\"font-size: 1.07rem;\">We will present an overview and framework for the basics of teaching online. Topics include: building your ecosystem of online instruction, effective tools you to use, online pedagogy - a comparison with F:F teaching, types of communication including how and when they are used, and sharing a strategy for transitioning to online instruction beyond just assigning tasks and activities.</span></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features3",
-          "_anchor": "features3-34",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Recording</a>",
+          "_name": "msg-box4",
           "_styles": {
-            "H5": {
-              "color": "#fac51c"
+            "H3": {
+              "color": "#000000"
             },
             "P": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
-          }
+          },
+          "_anchor": "msg-box4-37"
         },
         {
           "_styles": {

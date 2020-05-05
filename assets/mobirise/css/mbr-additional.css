@@ -546,17 +546,11 @@ section.form .container {
 #header3-2p .mbr-section-title {
   color: #ffffff;
 }
-#features1-36 .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #f97352;
-}
-#features1-36 .mbr-cards-col:nth-child(odd) .card-text {
-  text-align: left;
-}
-#features1-36 .mbr-cards-col:nth-child(even) .card-text {
-  text-align: left;
+#msg-box4-38 H3 {
   color: #000000;
+  font-size: 36px;
 }
-#features1-36 .mbr-cards-col:nth-child(even) .card-title {
+#msg-box4-38 P {
   color: #000000;
 }
 #header3-32 .mbr-section-title,
@@ -569,11 +563,11 @@ section.form .container {
 #header3-32 .mbr-section-title {
   color: #ffffff;
 }
-#features3-34 H5 {
-  color: #fac51c;
+#msg-box4-37 H3 {
+  color: #000000;
 }
-#features3-34 P {
-  color: #ffffff;
+#msg-box4-37 P {
+  color: #000000;
 }
 #header3-2n .mbr-section-title,
 #header3-2n .mbr-section-subtitle {

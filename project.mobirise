@@ -47,7 +47,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 117,
+    "uniqCompNum": 118,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
@@ -294,6 +294,93 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
+            "inverse": false,
+            "imageSize": "35",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/onlinelearning-1-275x183.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#88caba",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/elearning-308x164.jpg",
+              "link": "https://sdcoe.zoom.us/j/358000143",
+              "alt": "Pedagogy of Online Learning",
+              "title": "Building Lessons Online Placeholder image",
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Building Online Lessons Leveraging the Power of Google Classroom, Hyperdocs, and Online Tools&nbsp;",
+          "text": "<p><b>5/12/20</b><br><b>The Ed Tech team will host a webinar sharing our best thoughts on bulding lesson online for the most student engagement and deepest learning experiences. We will share our tips and tricks for thinking through the process and for integrating resources from multiple sources.&nbsp;</b><span style=\"font-size: 1.07rem;\"><b>Now, it is time to understand and build in the pedagogy behind online teaching.  In this course you will be introduced to building and delivering a simple lesson using the Google Suite.&nbsp;</b></span></p><p><br><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/99748582994\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/12 @ 4 p.m.</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-39"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#2969b0"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#f2c230"
+          },
+          "title": "Featured Webinars",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-32"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "inverse": true,
             "imageSize": "37",
             "paddingTop": "1",
@@ -337,7 +424,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://sdcoe.zoom.us/j/355501394\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://sdcoe.zoom.us/j/355501394\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Recording</a>",
           "_name": "msg-box4",
           "_styles": {
             "H3": {
@@ -349,32 +436,6 @@
             }
           },
           "_anchor": "msg-box4-38"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#2969b0"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#f2c230"
-          },
-          "title": "Featured Webinars",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-32"
         },
         {
           "_inherit": "msg-box5",
@@ -402,11 +463,10 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ikigai-for-all-future-ready-students-poster-1400x1044.png",
+              "src": "@PROJECT_PATH@/assets/images/elearning-308x164.jpg",
               "link": "https://sdcoe.zoom.us/j/358000143",
-              "alt": "Components of Being Future Ready with Ikigai - PDF found at: https://drive.google.com/file/d/1n44CLPdinDVjaekgr7_benhPhP5tL4yn/view?usp=sharing",
-              "title": "Ikigai Placeholder image",
-              "linkInNewWindow": true,
+              "alt": "Pedagogy of Online Learning",
+              "title": "Building Lessons Online Placeholder image",
               "active": true
             },
             "video": {

@@ -546,11 +546,10 @@ section.form .container {
 #header3-2p .mbr-section-title {
   color: #ffffff;
 }
-#msg-box4-38 H3 {
+#msg-box4-39 H3 {
   color: #000000;
-  font-size: 36px;
 }
-#msg-box4-38 P {
+#msg-box4-39 P {
   color: #000000;
 }
 #header3-32 .mbr-section-title,
@@ -562,6 +561,13 @@ section.form .container {
 }
 #header3-32 .mbr-section-title {
   color: #ffffff;
+}
+#msg-box4-38 H3 {
+  color: #000000;
+  font-size: 36px;
+}
+#msg-box4-38 P {
+  color: #000000;
 }
 #msg-box4-37 H3 {
   color: #000000;

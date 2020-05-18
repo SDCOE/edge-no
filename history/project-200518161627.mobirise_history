@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#055ba6",
         "#d61414",
         "#066bf2",
         "#7baced",
         "#1a73e8",
         "#991311",
-        "#f48483"
+        "#f48483",
+        "#c46948"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -69,14 +69,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#055ba6",
-            "fontSize": "1.35",
+            "fontSize": "1.3",
             "fontName": {
               "name": "Lato",
               "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
@@ -85,7 +85,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\">PRESENT &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2p\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-34\">FEATURED WEBINARS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\">PRESENT &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2p\">UPCOMING WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-34\">FEATURED WEBINARS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -109,10 +109,10 @@
               "font-family": "'Lato', sans-serif"
             },
             ".link": {
-              "font-size": "1.35rem"
+              "font-size": "1.3rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.462rem"
+              "font-size": "1.408rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -369,7 +369,7 @@
             "paddingBottom": 1,
             "bgColor": "#f2c230"
           },
-          "title": "Featured Webinar",
+          "title": "Featured Webinars",
           "meta": "",
           "_tags": [
             "Theme"
@@ -421,8 +421,8 @@
               "size": 250
             }
           },
-          "title": "Catch the Content Curation Wave",
-          "text": "<p>Join Andy Jensen, Teacher in San Diego Unified School District, shares<span style=\"font-size: 1.07rem;\">&nbsp;one easy and engaging way to boost creativity, collaboration and communication with your students. Included are accessibility options within the curation tool, Wakelet, and &nbsp;examples to get you started curating your own collection of resources.</span></p>",
+          "title": "Catch the Content Curation Wave\r<div>May 5, 2020 @ 4:00 p.m.</div>",
+          "text": "<p>Join Andy Jensen, Teacher in San Diego Unified School District, to l<span style=\"font-size: 1.07rem;\">earn one easy and engaging way to boost creativity, collaboration and communication with your students. He will share the accessibility options within the curation tool, Wakelet, and show you examples to get you started curating your own collection of resources.</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -438,6 +438,67 @@
             }
           },
           "_anchor": "msg-box4-38"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "37",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/onlinepresence-275x183.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#7baced",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/elearning-308x164.jpg",
+              "link": "https://sdcoe.zoom.us/j/358000143",
+              "alt": "Pedagogy of Online Learning",
+              "title": "Building Lessons Online Placeholder image",
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/AcUJCNgOUeg",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Teaching Online",
+          "text": "<p><span style=\"font-size: 1.07rem;\">We will present an overview and framework for the basics of teaching online. Topics include: building your ecosystem of online instruction, effective tools you to use, online pedagogy - a comparison with F:F teaching, types of communication including how and when they are used, and sharing a strategy for transitioning to online instruction beyond just assigning tasks and activities.</span></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Recording</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-37"
         },
         {
           "_styles": {
@@ -673,14 +734,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#055ba6",
-            "fontSize": "1.35",
+            "fontSize": "1.3",
             "fontName": {
               "name": "Lato",
               "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
@@ -689,7 +750,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\">PRESENT &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2p\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-34\">FEATURED WEBINARS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2k\">PRESENT &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-2p\">UPCOMING WEBINARS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-34\">FEATURED WEBINARS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.innovatesd.org/\" target=\"_blank\">Return to #innovateSD</a></li>",
           "_tags": [
             "Theme"
           ],

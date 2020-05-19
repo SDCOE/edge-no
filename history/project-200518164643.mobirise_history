@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -299,7 +301,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bento-box-photo-300x168.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/onlinelearning-1-275x183.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -308,16 +310,16 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#c0a375",
+            "overlayColor": "#88caba",
             "overlayOpacity": "0.6"
           },
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/bento-box-269x187.png",
-              "link": "",
-              "alt": "Bento box graphic",
-              "title": "Bento Box Design Thinking Placeholder image",
+              "src": "@PROJECT_PATH@/assets/images/elearning-308x164.jpg",
+              "link": "https://sdcoe.zoom.us/j/358000143",
+              "alt": "Pedagogy of Online Learning",
+              "title": "Building Lessons Online Placeholder image",
               "active": true
             },
             "video": {
@@ -332,12 +334,12 @@
               "size": 250
             }
           },
-          "title": "Bento Box Design Thinking&nbsp;",
-          "text": "<p><b>5/19/20</b><br><b>Join teachers, Holly Morey &amp; Kate Daniel, from Del Mar Union School District for their take on design thinking! They will share engaging and effective ways they have found to integrate technology within the design process developing a richer learning experience for students.</b></p><p><br></p>",
+          "title": "Building Online Lessons Leveraging the Power of Google Classroom, Hyperdocs, and Online Tools&nbsp;",
+          "text": "<p><b>5/12/20</b><br><b>The Ed Tech team will host a webinar sharing our best thoughts on bulding lesson online for the most student engagement and deepest learning experiences. We will share our tips and tricks for thinking through the process and for integrating resources from multiple sources.&nbsp;</b><span style=\"font-size: 1.07rem;\"><b>Now, it is time to understand and build in the pedagogy behind online teaching.  In this course you will be introduced to building and delivering a simple lesson using the Google Suite.&nbsp;</b></span></p><p><br><br></p>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/99748582994\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/19 @ 4 p.m.</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/99748582994\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/12 @ 4 p.m.</a>",
           "_name": "msg-box4",
           "_styles": {
             "H3": {
@@ -544,7 +546,7 @@
           "title1": "Sign Up to Present on <br>edTECH-O Tuesdays",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "<b>Being a presenter is easy! The Ed Tech team will provide you with a basic presentation template, the Zoom link for your session, and serve as your co-host as you present. We ask that you prepare the slides using the tmplate and provide a basic transcript of what you are going to say during the presentation. We will do the rest.&nbsp;</b>",
-          "title2": "edTECH-O Tuesdays<br>",
+          "title2": "edTECH-O Tuesdays<br>Begins Nov. 12",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "<b>Hear from mentor educators showcasing innovation in schools. become an early-adopter of new technologies. learn how meaningful technology integration improves outcomes. Connect with other educators throughout San Diego county. Implement ideas immediately with hands on curriculum.</b><br><b><br></b>",
           "title3": "Schedule of Sessions<br>for 2019-2020 School Year",

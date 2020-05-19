@@ -474,11 +474,11 @@ section.form .container {
   font-family: 'Lato', sans-serif;
 }
 #ext_menu-3 .link {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 #ext_menu-3 .dropdown-item,
 #ext_menu-3 .nav-dropdown-sm .link {
-  font-size: 1.408rem;
+  font-size: 1.462rem;
 }
 #ext_menu-3 .link:hover,
 #ext_menu-3 .dropdown-item:hover,
@@ -567,12 +567,6 @@ section.form .container {
   font-size: 36px;
 }
 #msg-box4-38 P {
-  color: #000000;
-}
-#msg-box4-37 H3 {
-  color: #000000;
-}
-#msg-box4-37 P {
   color: #000000;
 }
 #header3-2n .mbr-section-title,

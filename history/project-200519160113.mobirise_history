@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -299,7 +301,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bento-box-photo-300x168.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/bento%20box%20photo-300x168.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",
@@ -314,7 +316,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/bento-box-269x187.png",
+              "src": "@PROJECT_PATH@/assets/images/bento%20box-269x187.png",
               "link": "",
               "alt": "Bento box graphic",
               "title": "Bento Box Design Thinking Placeholder image",
@@ -337,7 +339,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/997750306\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/19 @ 4 p.m.</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/99748582994\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/19 @ 4 p.m.</a>",
           "_name": "msg-box4",
           "_styles": {
             "H3": {

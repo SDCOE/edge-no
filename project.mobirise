@@ -47,13 +47,11 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 118,
+    "uniqCompNum": 119,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -296,36 +294,36 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": false,
-            "imageSize": "35",
+            "inverse": true,
+            "imageSize": "37",
             "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bento%20box%20photo-300x168.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#a2c639",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#c0a375",
-            "overlayOpacity": "0.6"
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/bento%20box-269x187.png",
+              "src": "@PROJECT_PATH@/assets/images/denise-6-2-20-1193x667.jpg",
               "link": "",
-              "alt": "Bento box graphic",
-              "title": "Bento Box Design Thinking Placeholder image",
+              "alt": "Title slide for Google Chrome Tips & Tricks showing presenter's headshot",
+              "title": "Google Chrome Tips and Tricks for Strugging Students placeholder image",
               "active": true
             },
             "video": {
-              "src": "https://youtu.be/AcUJCNgOUeg",
+              "src": "https://youtu.be/cZjOPZ4zIbA",
               "aspectratio": "16:9",
-              "autoplay": "on",
+              "autoplay": false,
               "loop": false
             },
             "iconFont": {
@@ -334,22 +332,23 @@
               "size": 250
             }
           },
-          "title": "Bento Box Design Thinking&nbsp;",
-          "text": "<p><b>5/19/20</b><br><b>Join teachers, Holly Morey &amp; Kate Daniel, from Del Mar Union School District for their take on design thinking! They will share engaging and effective ways they have found to integrate technology within the design process developing a richer learning experience for students.</b></p><p><br></p>",
+          "title": "Google Chrome Tips &amp; Tricks for Struggling Students",
+          "text": "<p>Come and learn the latest tips, tricks, and tools to support all students!  Denise Hernandez, Senior Program Specialist, Assistive Technology with North Coastal Consortium for Special Education/SDCOE will share various Google Chrome extensions and websites to support students who struggle with decoding, writing, and organization.  The tools discussed are available on Google Chromebooks and within the Google Chrome browser on a laptop or desktop. .  Let’s remove barriers and learn how to level the playing field for our struggling students!  </p>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/997750306\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join Webinar on 5/19 @ 4 p.m.</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/96039920323\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join us Tuesday, 6/2 @ 4 p.m.</a>",
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "36px"
             },
             "P": {
               "color": "#000000"
             }
           },
-          "_anchor": "msg-box4-39"
+          "_anchor": "msg-box4-3a"
         },
         {
           "_styles": {
@@ -383,36 +382,37 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": true,
-            "imageSize": "37",
+            "inverse": false,
+            "imageSize": "35",
             "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@//assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bento-box-photo-300x168.png",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#a2c639",
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#c0a375",
+            "overlayOpacity": "0.6"
           },
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/wave-960x640.jpg",
-              "link": "",
-              "alt": "Big ocean wave breaking with tunnel",
-              "title": "Placeholder image for Catch the Content Curation Wave",
-              "active": true
+              "src": "@PROJECT_PATH@/assets/images/bentoboxfinal-781x777.png",
+              "link": "https://twitter.com/",
+              "alt": "Bento box graphis with rice, salmon & salad + Twitter handles: @hmoreyEDU & @KateDanielEDU",
+              "title": "Bento Box Design Thinking Placeholder image",
+              "active": true,
+              "linkInNewWindow": true
             },
             "video": {
-              "src": "https://youtu.be/cZjOPZ4zIbA",
+              "src": "https://youtu.be/AcUJCNgOUeg",
               "aspectratio": "16:9",
-              "autoplay": false,
+              "autoplay": "on",
               "loop": false
             },
             "iconFont": {
@@ -421,23 +421,22 @@
               "size": 250
             }
           },
-          "title": "Catch the Content Curation Wave",
-          "text": "<p>Join Andy Jensen, Teacher in San Diego Unified School District, shares<span style=\"font-size: 1.07rem;\">&nbsp;one easy and engaging way to boost creativity, collaboration and communication with your students. Included are accessibility options within the curation tool, Wakelet, and &nbsp;examples to get you started curating your own collection of resources.</span></p>",
+          "title": "Bento Box Design Thinking&nbsp;",
+          "text": "<p><b>Join teachers, Holly Morey &amp; Kate Daniel, from Del Mar Union School District for their take on design thinking! They will share engaging and effective ways they have found to integrate technology within the design process developing a richer learning experience for students.</b></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://sdcoe.zoom.us/j/355501394\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Recording</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/997750306\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "color": "#000000",
-              "font-size": "36px"
+              "color": "#000000"
             },
             "P": {
               "color": "#000000"
             }
           },
-          "_anchor": "msg-box4-38"
+          "_anchor": "msg-box4-39"
         },
         {
           "_styles": {

@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -299,7 +301,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
+            "bgImage": "@PROJECT_PATH@//assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a2c639",
@@ -314,7 +316,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/denise-6-2-20-1193x667.jpg",
+              "src": "@PROJECT_PATH@/assets/images/denise_6-2-20-1193x667.jpg",
               "link": "",
               "alt": "Title slide for Google Chrome Tips & Tricks showing presenter's headshot",
               "title": "Google Chrome Tips and Tricks for Strugging Students placeholder image",
@@ -387,7 +389,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bento-box-photo-300x168.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/bento%20box%20photo-300x168.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",

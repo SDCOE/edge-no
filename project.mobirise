@@ -21,13 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#222222",
         "#055ba6",
         "#d61414",
         "#066bf2",
         "#7baced",
         "#1a73e8",
-        "#991311",
-        "#f48483"
+        "#991311"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -47,13 +47,11 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 119,
+    "uniqCompNum": 120,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -282,7 +280,7 @@
             "paddingBottom": 1,
             "bgColor": "#f2c230"
           },
-          "title": "Upcoming Webinars",
+          "title": "Upcoming Webinars - Summer Break",
           "meta": "",
           "_tags": [
             "Theme"
@@ -291,66 +289,67 @@
           "_anchor": "header3-2p"
         },
         {
-          "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": "37",
+            "showSubTitle": true,
+            "labelsColor": "#ffffff",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@//assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/taco2-812x607.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#a2c639",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayColor": "#fff",
+            "overlayColor": "#222222",
             "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/denise_6-2-20-1193x667.jpg",
-              "link": "",
-              "alt": "Title slide for Google Chrome Tips & Tricks showing presenter's headshot",
-              "title": "Google Chrome Tips and Tricks for Strugging Students placeholder image",
-              "active": true
+          "title": "FEEDBACK FORM",
+          "subtitle": "Shape future webinars by telling us who you want to hear from and what you would like to hear about. We are working on next year's schedule!<br>Don't forget to click on <b>PRESENT </b>to put your name on the list!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "michanne.hoctorthompson@sdcoe.net",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "video": {
-              "src": "https://youtu.be/cZjOPZ4zIbA",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "title": "Google Chrome Tips &amp; Tricks for Struggling Students",
-          "text": "<p>Come and learn the latest tips, tricks, and tools to support all students!  Denise Hernandez, Senior Program Specialist, Assistive Technology with North Coastal Consortium for Special Education/SDCOE will share various Google Chrome extensions and websites to support students who struggle with decoding, writing, and organization.  The tools discussed are available on Google Chromebooks and within the Google Chrome browser on a laptop or desktop. .  Let’s remove barriers and learn how to level the playing field for our struggling students!  </p>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sdcoe.zoom.us/j/96039920323\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join us Tuesday, 6/2 @ 4 p.m.</a>",
-          "_name": "msg-box4",
+          "_name": "form1",
+          "_anchor": "form1-3b",
           "_styles": {
-            "H3": {
-              "color": "#000000",
-              "font-size": "36px"
+            ".form-control-label": {
+              "color": "#ffffff"
             },
-            "P": {
-              "color": "#000000"
+            ".mbr-section-subtitle": {
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
             }
-          },
-          "_anchor": "msg-box4-3a"
+          }
         },
         {
           "_styles": {
@@ -384,12 +383,74 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
+            "inverse": true,
+            "imageSize": "37",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/confetti-background-pattern-14054452697u0-1920x1920.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a2c639",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/denise-6-2-20-1193x667.jpg",
+              "link": "",
+              "alt": "Title slide for Google Chrome Tips & Tricks showing presenter's headshot",
+              "title": "Google Chrome Tips and Tricks for Strugging Students placeholder image",
+              "active": true
+            },
+            "video": {
+              "src": "https://youtu.be/cZjOPZ4zIbA",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Google Chrome Tips &amp; Tricks for Struggling Students",
+          "text": "<p>Come and learn the latest tips, tricks, and tools to support all students!  Denise Hernandez, Senior Program Specialist, Assistive Technology with North Coastal Consortium for Special Education/SDCOE will share various Google Chrome extensions and websites to support students who struggle with decoding, writing, and organization.  The tools discussed are available on Google Chromebooks and within the Google Chrome browser on a laptop or desktop. .  Let’s remove barriers and learn how to level the playing field for our struggling students!  </p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://youtu.be/OWk5oIdUyS4\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#000000",
+              "font-size": "36px"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-3a"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "inverse": false,
             "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bento%20box%20photo-300x168.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/bento-box-photo-300x168.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#ffffff",

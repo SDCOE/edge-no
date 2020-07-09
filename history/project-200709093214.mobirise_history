@@ -51,7 +51,9 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": "on",
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -402,7 +404,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/denise-6-2-20-600x335.jpg",
+              "src": "@PROJECT_PATH@/assets/images/denise_6-2-20-600x335.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -424,7 +426,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/catch-the-content-curation-wave-600x337.jpg",
+              "src": "@PROJECT_PATH@/assets/images/catch%20the%20content%20curation%20wave-600x337.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -435,7 +437,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/chrisgarcia-jan-14-600x375.png",
+              "src": "@PROJECT_PATH@/assets/images/chrisgarcia_jan-14-600x375.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -479,8 +481,8 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button1": "<a data-app-btn=\"true\" href=\"https://youtu.be/OWk5oIdUyS4\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://youtu.be/uvNhKuANfio\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://youtu.be/ulcfGzWOuvs\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Watch the Recording</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Watch the Recording</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://youtu.be/ytMVh5fDFhU\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch the Recording</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
